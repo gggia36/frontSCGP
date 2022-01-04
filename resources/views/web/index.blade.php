@@ -14,7 +14,7 @@
 				<h5 class="text-center txt-detail-top">
 					A leading multinational consumer<br/>
 					packaging solutions provider<br/>
-					through innovative and sustainable offerings Test
+					through innovative and sustainable offerings
 				</h5>
 			</div>
 		</div>
