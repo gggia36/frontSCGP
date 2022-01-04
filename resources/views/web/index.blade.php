@@ -133,25 +133,25 @@
 
 <section class="section">
 	<div class="container-fluid " data-aos="fade-up" data-aos-duration="1000">
-		<div class="row ">
-			<div class="col-md-6 px-0" style="background: url('assets/Images/img-x9.png');background-repeat: no-repeat;background-size: cover; background-position-x: right;">
+		<div class="row" id="collapseSolution">
+			<div class="col-md-6 col-12 px-0 bg-image-solutions">
 				
 			</div>
-			<div class="col-md-6 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000">
-				<h1 class="txt-blue pt-4" >SOLUTION</h1>
+			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000">
+				<h1 class="txt-blue pt-4" >SOLUTIONS</h1>
 				<div class="">
 					  <a class="txt-blue2 mb-0  px-0  set-a" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 					   Circular economy solutions
 					  </a>
-						<div class="collapse show" id="collapseExample">
-						  <div class="card card-fix card-body">
+						<div class="collapse show" id="collapseExample" data-bs-parent="#collapseSolution">
+						  <div class="card card-fix card-body pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>				
 
@@ -159,75 +159,75 @@
 					  <a class="txt-blue2 mb-0 set-a" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
 					  Small lot solutions
 					  </a>
-						<div class="collapse" id="collapseExample1">
+						<div class="collapse" id="collapseExample1" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
 				<div>
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
 					  Convenience solutions
 					  </a>
-						<div class="collapse" id="collapseExample5">
+						<div class="collapse" id="collapseExample5" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
 				<div>
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
 					  Smart and functional solutions
 					  </a>
-						<div class="collapse" id="collapseExample2">
+						<div class="collapse" id="collapseExample2" data-bs-parent="#collapseSolution">
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
 				<div>
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
 					  E-commerce solutions
 					  </a>
-						<div class="collapse" id="collapseExample3">
+						<div class="collapse" id="collapseExample3" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
 				<div>
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
 					  Marketing event solutions
 					  </a>
-						<div class="collapse" id="collapseExample4">
+						<div class="collapse" id="collapseExample4" data-bs-parent="#collapseSolution">
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
-								<button class="btn btn-grad">Read mord</button>
 						  </div>
+						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
 			</div>
@@ -312,12 +312,12 @@
 
 
 <section id="bg-section-new">
-	<div class="container py-5" data-aos="fade-up" data-aos-duration="1000">
-	<div class="row pt-5 box-show-card" data-aos="fade-up" data-aos-duration="2000">
+	<div class="container" data-aos="fade-up" data-aos-duration="1000">
+	<div class="row pt-3 box-show-card" data-aos="fade-up" data-aos-duration="2000">
 		<h1 class="text-white text-center">NEWS</h1>
 	</div>
       <div class="row">
-        <div class="owl-slider py-5">
+        <div class="owl-slider">
 			<div id="carousel-new" class="owl-carousel owl-carousel-new">
 				<div class="item box-card-product2 wrap4">
 					<div class="front4">
@@ -391,9 +391,9 @@
 			</div>
 		</div>
       </div> 
-      <div class="row  pb-5">
+      <div class="row">
       	<div class="col-md-12 text-center">
-      		<button class="btn btn-read-more2">Read more</button>
+      		<button class="btn btn-read-more2 mt-3">Read more</button>
       	</div>
       </div>
     </div>

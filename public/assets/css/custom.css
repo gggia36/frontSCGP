@@ -103,9 +103,9 @@ a:focus {
 .owl-height {
     height: auto !important;
 }
-#carousel-new .owl-item {
+/* #carousel-new .owl-item {
     padding: 0.4rem !important;
-}
+} */
 #carousel .owl-item {
     padding: 0.4rem !important;
 }
@@ -368,9 +368,8 @@ a:focus {
 }
 .btn-grad {
     margin: 10px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-align: center;
-    width: 15%;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
@@ -413,6 +412,7 @@ a:focus {
     background: -webkit-linear-gradient(0deg, rgba(0, 87, 166, 1) 0%, rgba(0, 129, 200, 1) 100%);
     background: linear-gradient(0deg, rgba(0, 87, 166, 1) 0%, rgba(0, 129, 200, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057a6",endColorstr="#0081c8",GradientType=1);
+    height: 600px;
 }
 
 .h-box {
@@ -819,6 +819,13 @@ a.set-a:focus{
     background-color: #fff0;
     margin: auto;
     text-decoration: none;
+}
+
+.bg-image-solutions {
+    background: url('/assets/Images/img-x9.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-x: right;
 }
 
 /* .card-header-fix:not(.collapse){
