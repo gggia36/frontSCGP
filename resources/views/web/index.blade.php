@@ -456,6 +456,12 @@
   left:0;
   transition:all .7s linear;
 }
+.bg-image-solutions {
+    background: url('assets/Images/img-x9.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-x: right;
+}
 </style>
 @endsection
 
