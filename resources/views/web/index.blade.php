@@ -1,17 +1,18 @@
 @extends('layouts.layout')
 @section('content')
-<section>
+<section class="position-relative">
 	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl position-relative">
 	    <div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	   	<div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	</div>
+	<button type="button" class="btn btn-primary btn-carousel">Read More</button>
 </section>
 
 <section  style="background: url('assets/Images/Upper-BG.png');background-repeat: no-repeat; background-size:100% 100%;">
 	<div class="container pt-5">
 		<div class="row">
 			<div class="col-12 py-5" data-aos="fade-up" data-aos-duration="1000">
-				<h5 class="text-center txt-detail-top">
+				<h5 class="text-center txt-detail-top lh-1">
 					A leading multinational consumer<br/>
 					packaging solutions provider<br/>
 					through innovative and sustainable offerings
@@ -24,9 +25,10 @@
 			<h1 class="txt-blue pb-4" data-aos="fade-up" data-aos-duration="1000">PRODUCT & SERVICE</h1>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front">
-				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
-				    <p class="entypo-mobile text-uppercase">PACKAGING</p>
+				  <div class="front position-relative">
+				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}" />
+					<div class="front-title-solution"></div>
+					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
 				  <div class="back ">
 				     <h1 class="entypo-mobile text-uppercase">PACKAGING</h1>
@@ -39,8 +41,9 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front">
-				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x2.png')}}"/>
+				  <div class="front position-relative">
+				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
+					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
 				  </div>
 				  <div class="back">
@@ -54,8 +57,9 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front">
-				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x3.png')}}"/>
+				  <div class="front position-relative">
+				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x2.png')}}"/>
+					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Foodservice Product</p>
 				  </div>
 				  <div class="back">
@@ -69,9 +73,10 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front">
-				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
-				   	 <p class="entypo-mobile text-uppercase">Paper and pulp</p>
+				  <div class="front position-relative">
+				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x3.png')}}"/>
+					 <div class="front-title-solution"></div>
+				   	 <p class="entypo-mobile text-uppercase a1">Paper and pulp</p>
 				  </div>
 				  <div class="back">
 				     <h1 class="entypo-mobile text-uppercase">Paper and pulp</h1>
@@ -84,8 +89,9 @@
 			</div>
 			<div class="col-md-4 my-2">
 				<div class="wrap2">
-				  <div class="front">
+				  <div class="front position-relative">
 				     <img class="w-100 img-thumbnail-product-2" src="{{asset('assets/Images/img-x4.png')}}"/>
+					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Design service</p>
 				  </div>
 				  <div class="back2">
@@ -99,8 +105,9 @@
 			</div>
 			<div class="col-md-4 my-2">
 				<div class="wrap2">
-				  <div class="front">
+				  <div class="front position-relative">
 				     <img class="w-100 img-thumbnail-product-2" src="{{asset('assets/Images/img-x5.png')}}"/>
+					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Marketing and Event</p>
 				  </div>
 				  <div class="back2">
@@ -114,8 +121,9 @@
 			</div>
 			<div class="col-md-4 my-2">
 				<div class="wrap2">
-				  <div class="front">
+				  <div class="front position-relative">
 				     <img class="w-100 img-thumbnail-product-2" src="{{asset('assets/Images/img-x6.png')}}"/>
+					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">SCGP Recycle</p>
 				  </div>
 				  <div class="back2">
