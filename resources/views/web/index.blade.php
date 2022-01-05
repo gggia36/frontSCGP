@@ -399,9 +399,9 @@
     </div>
 </section>
 
-<section class="section" >
+<section class="section d-none d-md-block" >
 	<div class="container">
-		<div class="row text-center py-5" data-aos="zoom-in" data-aos-duration="1000">
+		<div class="row text-center pt-3 pb-2" >
 			<div class="col-12">
 				<h5 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
 			</div>
@@ -412,10 +412,29 @@
 	</div>
 </section>
 
+<section class="section d-block d-md-none" >
+	<div class="container">
+		<div class="row text-center py-3" >
+			<div class="col-12">
+				<h5 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
+			</div>
+			<div class="col-12">
+				<img class="w-75" src="{{asset('assets/Images/img-customer-sm.png')}}">
+			</div>
+		</div>
+	</div>
+</section>
+
 
 
 
 <style type="text/css">
+	.bg-image-solutions {
+    background-image: url('assets/Images/img-x9.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-x: right;
+}
 .back4{
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail-slide.png');

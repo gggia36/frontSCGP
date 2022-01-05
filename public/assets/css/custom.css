@@ -821,12 +821,12 @@ a.set-a:focus{
     text-decoration: none;
 }
 
-.bg-image-solutions {
+/* .bg-image-solutions {
     background: url('/assets/Images/img-x9.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position-x: right;
-}
+} */
 
 /* .card-header-fix:not(.collapse){
     border: 0px;
