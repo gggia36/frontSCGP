@@ -89,6 +89,22 @@ jQuery("#carousel").owlCarousel({
   }
 })
 
+function openNav() {
+  var sideNav = document.getElementById("mySidenav");
+  var backdrop = document.getElementById("backdrop")
+  sideNav.style.width = "300px";
+  backdrop.style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
+function closeNav() {
+  var sideNav = document.getElementById("mySidenav");
+  var backdrop = document.getElementById("backdrop")
+  sideNav.style.width = "0px";
+  backdrop.style.display = "none";
+  document.body.style.overflow = "auto";
+}
+
 // window.onscroll = function() {scrollSticky()};
 
 // function scrollSticky() {

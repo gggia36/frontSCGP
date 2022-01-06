@@ -117,11 +117,11 @@
     <nav class="primary">
         <div class="header__container">
           <ul>
-            <li class="logo">
-             <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
+            <li class="logo text-end">
+                <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
             </li>
             <li class="mobile-nav">
-              <button id="nav-toggle">
+              <button id="nav-toggle" onclick="openNav()">
                 <span class="menu"></span>
               </button>
             </li>
@@ -131,7 +131,7 @@
  </header>
  <!-- /nav -->
  <!-- mobile nav menu -->
-   <nav class="mobile">
+   <!-- <nav class="mobile">
      <ul>
        <li class="link">
          <a class="text-uppercase" href="">About us</a>
@@ -155,7 +155,54 @@
          <a class="text-uppercase" href="">Business Update</a>
        </li>
      </ul>
-   </nav>
+   </nav> -->
+
+  <div id="mySidenav" class="sidenav">
+    <div class="d-flex align-items-center">
+        <div class="w-25 text-center">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="w-75">
+            <hr class="w-100">
+        </div>
+    </div>
+
+    <ul class="navMenuMb">
+      <li class="navMenuMb-item">
+        <a href="#">About us</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+      <li class="navMenuMb-item">
+        <a href="#">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+      <li class="navMenuMb-item">
+        <a href="#">Solutions</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+      <li class="navMenuMb-item">
+        <a href="#">Debenture / Investor Relations</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+      <li class="navMenuMb-item">
+        <a href="#">Sustainable Development</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+      <li class="navMenuMb-item">
+        <a href="#">Business Update</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+      </li>
+    </ul>
+
+    <div class="d-flex justify-content-evenly mt-3">
+      <div><img class="w-75" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></div>
+      <div><img class="w-75" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></div>
+      <div><img class="w-75" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></div>
+      <div><img class="w-75" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mt-3 text-center">
+          ENG <span class="px-2">|</span> ไทย
+      </div>
+    </div>
+
+  </div>
+  <div class="backdrop" id="backdrop"></div>
  <!-- /mobile nav menu -->
   
 </div>
@@ -164,6 +211,52 @@
 
 
 <style type="text/css">
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 15px 0px;
+  font-size: 1rem;
+}
+
+.backdrop {
+  display: none;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  top: 0;
+  position: fixed;
+}
+
+.closebtn {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.navMenuMb {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navMenuMb-item {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-bottom: 1px solid #c4c4c4;
+  color: #294661;
+}
+
+
   .dropdown-toggle::after {
     display: none;
   }
@@ -281,11 +374,11 @@ li.mobile-nav {
   cursor: pointer;
 }
 
-#nav-toggle:hover,
+/* #nav-toggle:hover,
 #nav-toggle:focus {
   color: #1a82e2;
   outline: none;
-}
+} */
 #nav-toggle .menu {
   position: absolute;
   display: block;
@@ -313,7 +406,7 @@ li.mobile-nav {
   top: 8px;
 }
 #nav-toggle.open .menu {
-  background-color: transparent;
+  /* background-color: transparent; */
   transition: background-color 0s;
   transition-delay: 0s;
 }
@@ -321,7 +414,7 @@ li.mobile-nav {
 #nav-toggle.open .menu:after {
   transition: transform 0.3s;
 }
-#nav-toggle.open .menu:before {
+/* #nav-toggle.open .menu:before {
   top: 0;
   box-shadow: none;
   transform: rotate(45deg);
@@ -329,11 +422,11 @@ li.mobile-nav {
 #nav-toggle.open .menu:after {
   transform: rotate(-45deg);
   top: 0;
-}
+} */
 
 /***** Mobile nav menu styles *****/
 
-nav.mobile {
+/* nav.mobile {
   display: block;
   position: fixed;
   top: 6.5rem;
@@ -366,7 +459,7 @@ nav.mobile li.link a {
   color: #294661;
   display: block;
   text-decoration: none;
-}
+} */
 
 </style>
 
