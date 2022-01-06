@@ -89,3 +89,14 @@ jQuery("#carousel").owlCarousel({
   }
 })
 
+window.onscroll = function() {scrollSticky()};
+
+function scrollSticky() {
+  var navbar = document.getElementById("sticky");
+  var sticky = navbar.offsetTop;
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("o-09")
+  } else {
+    navbar.classList.remove("o-09");
+  }
+}

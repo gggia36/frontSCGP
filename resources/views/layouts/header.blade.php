@@ -1,7 +1,7 @@
 <section style="background: url('assets/Images/navtop.png');background-repeat: no-repeat;background-size: 100% 100px;">
-    <div class="container">
-      <div class="row  ">
-        <div class="col-12 d-flex justify-content-end align-items-center ">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-end align-items-center">
           <div>
             <ul class="dis-none-style text-center me-3 py-2">
               <li><a class="text-white pe-3 " href="{{url('contact')}}">CONTACT US</a></li>
@@ -16,83 +16,208 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="container px-xxl-5 py-2">
+        <div class="row align-items-center">
+          <div class="col-9 text-end">
+            <ul class="dis-none-style float-end align-items-center">
+                <li><a class="text-white pe-3 " href="{{url('contact')}}">CONTACT US</a></li>
+                <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
+              </ul>
+          </div>
+          <div class="col-3 text-white pe-4">
+            <div class="d-flex justify-content-end">
+              ENG <span class="px-2">|</span> ไทย  
+            </div>
+          </div>
+        </div>
     </div>
 </section>
 
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white  d-md-none d-lg-block d-none">
-    <div class="container  px-0">
-        <a class="navbar-brand d-flex align-items-center" href="{{url('/')}}">
-            <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
-        </a>
-        <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbar4">
-            <ul class="navbar-nav mr-auto pl-lg-4">
-                <li class="nav-item px-lg-2 active text-uppercase">
-                    <a class="nav-link" href="#">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="fas fa-home"></i></span>About us
-                    </a>
+<div class="sticky-top" id="sticky">
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white  d-md-none d-lg-block d-none">
+      <div class="container px-xxl-5">
+        
+        <div class="headerNavber">
+          <div class="headerBrand">
+            <a class="d-flex align-items-center" href="{{url('/')}}">
+                <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
+            </a>
+          </div>
+          <div class="headerMenu">
+              <ul class="menuNav">
+                <li class="px-2">
+                  <a class="icon-width txt-nav menu-item">About us</a>
                 </li>
-                <li class="nav-item px-lg-2 dropdown d-menu text-uppercase">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-caret-square-down"></i></span>Products & Services
-                        <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </a>
-                    <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Products</a>
-                        <a class="dropdown-item click-menu" href="#"><i class="bi bi-plus"></i> 
-                            Packaging
-                            <div class="sub-dropdown" style="display:none;">
-                                <ul style="list-style: none;">
-                                    <li>
-                                       <i class="bi bi-plus"></i> Primary Packaging
-                                    </li>
-                                    <li>
-                                        <i class="bi bi-plus"></i>Secondary Packaging
-                                    </li>
-                                    <li>
-                                        <i class="bi bi-plus"></i>Tertiary Packaging
-                                    </li>
-                                </ul>
-                            </div>
+                <li class="px-2 dropdown">
+                  <a class="icon-width txt-nav dropdown-toggle menu-item" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Products & Services
+                     <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </a>
+                  <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#" class="sub-menu-item">
+                          <i class="bi bi-plus"></i> Products
                         </a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Specialty Packaging</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Food Service Products</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Paper and Pulp</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Forestry</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Services</a>
+                      </li>
+                      <li>
+                        <a href="#" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Packaging</a>
+                        <div class="sub-dropdown" style="display:none;">
+                            <ul>
+                              <li>
+                                <a href="#" class="sub-menu-item">
+                                  <i class="bi bi-plus"></i> Primary Packaging
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="sub-menu-item">
+                                  <i class="bi bi-plus"></i> Secondary Packaging
+                                </a> 
+                              </li>
+                              <li>
+                                  <a href="#" class="sub-menu-item">
+                                    <i class="bi bi-plus"></i> Tertiary Packaging
+                                  </a>    
+                              </li>
+                            </ul>
+                          </div>
+                      </li>
+                      <li>
+                        <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Specialty Packaging</a>
+                      </li>
+                      <li>
+                        <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Food Service Products</a>
+                      </li>
+                      <li>
+                        <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Paper and Pulp</a>
+                      </li>
+                      <li>
+                        <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Forestry</a>
+                      </li>
+                      <li>
+                        <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Services</a>
+                      </li>
+                    </ul>
+                          <!-- <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Products</a>
+                          <a class="dropdown-item click-menu" href="#"><i class="bi bi-plus"></i> 
+                              Packaging
+                              <div class="sub-dropdown" style="display:none;">
+                                  <ul style="list-style: none;">
+                                      <li>
+                                        <i class="bi bi-plus"></i> Primary Packaging
+                                      </li>
+                                      <li>
+                                          <i class="bi bi-plus"></i>Secondary Packaging
+                                      </li>
+                                      <li>
+                                          <i class="bi bi-plus"></i>Tertiary Packaging
+                                      </li>
+                                  </ul>
+                              </div>
+                          </a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Specialty Packaging</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Food Service Products</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Paper and Pulp</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Forestry</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Services</a> -->
                     </div>
                 </li>
-                <li class="nav-item px-lg-2 text-uppercase">
-                    <a class="nav-link" href="#">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Solutions  
-                    </a>
+                <li class="px-2">
+                  <a class="icon-width txt-nav menu-item">Solutions</a>
                 </li>
-                 <li class="nav-item px-lg-2 text-uppercase">
-                    <a class="nav-link" href="#">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Debenture / Investor Relations  
-                    </a>
+                <li class="px-2">
+                  <a class="icon-width txt-nav menu-item">Debenture / Investor Relations</a>
                 </li>
-                <li class="nav-item px-lg-2 text-uppercase">
-                    <a class="nav-link" href="#">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Sustainable Development  
-                    </a>
+                <li class="px-2">
+                  <a class="icon-width txt-nav menu-item">Sustainable Development</a>
                 </li>
-
-                <li class="nav-item px-lg-2 text-uppercase">
-                    <a class="nav-link" href="#">
-                        <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-envelope"></i></span>Business Update
-                    </a>
+                <li class="px-2">
+                  <a class="icon-width txt-nav menu-item">Business Update</a>
                 </li>
-            </ul>
+              </ul>
+          </div>
         </div>
-    </div>
-</nav>
 
+          <!-- <a class="navbar-brand d-flex align-items-center" href="{{url('/')}}">
+              <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbar4">
+              <ul class="navbar-nav mr-auto pl-lg-4">
+                  <li class="nav-item px-lg-2 active text-uppercase">
+                      <a class="nav-link" href="#">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="fas fa-home"></i></span>About us
+                      </a>
+                  </li>
+                  <li class="nav-item px-lg-2 dropdown d-menu text-uppercase">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-caret-square-down"></i></span>Products & Services
+                          <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                      </a>
+                      <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Products</a>
+                          <a class="dropdown-item click-menu" href="#"><i class="bi bi-plus"></i> 
+                              Packaging
+                              <div class="sub-dropdown" style="display:none;">
+                                  <ul style="list-style: none;">
+                                      <li>
+                                        <i class="bi bi-plus"></i> Primary Packaging
+                                      </li>
+                                      <li>
+                                          <i class="bi bi-plus"></i>Secondary Packaging
+                                      </li>
+                                      <li>
+                                          <i class="bi bi-plus"></i>Tertiary Packaging
+                                      </li>
+                                  </ul>
+                              </div>
+                          </a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Specialty Packaging</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Food Service Products</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Paper and Pulp</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Forestry</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Services</a>
+                      </div>
+                  </li>
+                  <li class="nav-item px-lg-2 text-uppercase">
+                      <a class="nav-link" href="#">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Solutions  
+                      </a>
+                  </li>
+                  <li class="nav-item px-lg-2 text-uppercase">
+                      <a class="nav-link" href="#">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Debenture / Investor Relations  
+                      </a>
+                  </li>
+                  <li class="nav-item px-lg-2 text-uppercase">
+                      <a class="nav-link" href="#">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-user"></i></span>Sustainable Development  
+                      </a>
+                  </li>
+
+                  <li class="nav-item px-lg-2 text-uppercase">
+                      <a class="nav-link" href="#">
+                          <span class="d-inline-block d-lg-none icon-width txt-nav "><i class="far fa-envelope"></i></span>Business Update
+                      </a>
+                  </li>
+              </ul>
+          </div> -->
+
+      </div>
+  </nav>
+</div>
 
 <div class="demo-container d-lg-none d-md-block d-block">
   
