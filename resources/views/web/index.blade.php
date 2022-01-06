@@ -41,7 +41,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front position-relative">
+				  <div class="front0 position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front position-relative">
+				  <div class="front0 position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x2.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Foodservice Product</p>
