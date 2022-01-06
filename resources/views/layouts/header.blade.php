@@ -172,18 +172,36 @@
         <a href="#">About us</a>
       </li>
       <li class="navMenuMb-item">
-        <!-- <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts"> -->
+        <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
            <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
-        <!-- </div>        -->
+        </div>  
+        
+        <div class="collapse" id="collapseProducts">
+          <ul class="sub-menu-mb">
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
+            <li class="sub-menu-mb-item">
+              <div role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
+                <i class="bi bi-plus"></i> Packaging
+              </div>
+              
+              <div class="collapse" id="collapsePackaging">
+                  <ul class="sub-menu-mb">
+                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Primary Packaging</li>
+                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Secondary Packaging</li>
+                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Tertiary Packaging</li>
+                  </ul>
+              </div>
+            
+            </li>
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Specialty Packaging</li>
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Food Service Products</li>
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Paper and Pulp</li>
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Forestry</li>
+            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Services</li>
+          </ul>   
+        </div>
+        
       </li>
-      <!-- <li class="collapse" id="collapseProducts" style="background-color: #c4c4c4;width: 100%">
-          <ul style="list-style:none;padding:0px;margin:0px;">
-            <li>1</li>
-            <li><i class="fas fa-chevron-right"></i> 2</li>
-            <li>3</li>
-          </ul>
-      </li> -->
-
       <li class="navMenuMb-item">
         <a href="#">Solutions</a>
       </li>
@@ -266,10 +284,27 @@
   color: #294661;
 }
 
+.sub-menu-mb {
+  list-style:none;
+  padding:0px;
+  margin:0px;
+}
 
-  .dropdown-toggle::after {
-    display: none;
-  }
+.sub-menu-mb-item {
+  display: block;
+  width: 100%;
+  padding: 3px 8px;
+}
+
+.sub-menu-mb-item2 {
+  display: block;
+  width: 100%;
+  padding: 3px 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
 .text-decoration-none{
   text-decoration: none!important;
 }
