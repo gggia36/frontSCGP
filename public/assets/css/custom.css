@@ -70,6 +70,14 @@ a:focus {
 .fix-mar-nav-top{
     margin: 0rem -.7rem;
 }
+.img-nav-icon-mobile{
+    border-radius: 4rem;
+    border: 1px solid;
+    width: 60%;
+}
+.fix-img-sotion{
+    width: 18%;
+}
 .txt-7{
     font-size: .7rem;
 }

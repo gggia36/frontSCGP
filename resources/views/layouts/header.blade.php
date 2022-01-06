@@ -198,11 +198,11 @@
       </li>
     </ul>
 
-    <div class="d-flex justify-content-evenly mt-3">
-      <div><img class="w-75" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></div>
-      <div><img class="w-75" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></div>
-      <div><img class="w-75" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></div>
-      <div><img class="w-75" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></div>
+    <div class="d-flex justify-content-evenly align-items-center  mt-3">
+      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/message-ff.jpeg')}}" alt="" /></div>
+      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI-yy.jpeg')}}" alt="" /></div>
+      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI-tt.jpeg')}}" alt="" /></div>
+      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI.jpeg')}}" alt="" /></div>
     </div>
 
     <div class="row">
