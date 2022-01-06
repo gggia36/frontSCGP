@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-<section class="position-relative">
-	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl position-relative">
+<section class="position-relative" style="margin-bottom: -80px;">
+	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl" style="bottom: 80px;z-index: 0;">
 	    <div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	   	<div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	</div>
