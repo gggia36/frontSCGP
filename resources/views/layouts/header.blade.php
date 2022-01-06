@@ -169,22 +169,32 @@
 
     <ul class="navMenuMb">
       <li class="navMenuMb-item">
-        <a href="#">About us</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <a href="#">About us</a>
       </li>
       <li class="navMenuMb-item">
-        <a href="#">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <!-- <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts"> -->
+           <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <!-- </div>        -->
+      </li>
+      <!-- <li class="collapse" id="collapseProducts" style="background-color: #c4c4c4;width: 100%">
+          <ul style="list-style:none;padding:0px;margin:0px;">
+            <li>1</li>
+            <li><i class="fas fa-chevron-right"></i> 2</li>
+            <li>3</li>
+          </ul>
+      </li> -->
+
+      <li class="navMenuMb-item">
+        <a href="#">Solutions</a>
       </li>
       <li class="navMenuMb-item">
-        <a href="#">Solutions</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <a href="#">Debenture / Investor Relations</a>
       </li>
       <li class="navMenuMb-item">
-        <a href="#">Debenture / Investor Relations</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <a href="#">Sustainable Development</a> 
       </li>
       <li class="navMenuMb-item">
-        <a href="#">Sustainable Development</a> <i class="fas fa-chevron-down float-end mt-1"></i>
-      </li>
-      <li class="navMenuMb-item">
-        <a href="#">Business Update</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+        <a href="#">Business Update</a> 
       </li>
     </ul>
 

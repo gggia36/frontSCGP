@@ -742,7 +742,6 @@ a:focus {
     top: -60px;
     box-shadow: 0px 0px 2px 0px #1a5336;
     transform: scale(2.5);
-
     transition: all 0.3s ease;
 }
 .back2 h1 {
