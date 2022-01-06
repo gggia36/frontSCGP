@@ -852,7 +852,7 @@ a.set-a:focus{
     left: 0;
     height: 100px;
     width: 100%;
-    background-color: gray;
+    background: linear-gradient(1deg, rgb(0 0 0 / 57%) 10%, rgb(0 0 0 / 0%) 94%);
 }
 
 /* .card-header-fix:not(.collapse){
