@@ -1,7 +1,7 @@
 <section style="background: url('assets/Images/navtop.png');background-repeat: no-repeat;background-size: 100% 100px;">
 
     <div class="container px-xxl-5 py-2">
-        <div class="row align-items-center">
+        <div class="row align-items-center" id="MyContact">
           <div class="col-9 text-end">
             <ul class="dis-none-style float-end align-items-center">
                 <li><a class="text-white pe-3 " href="{{url('contact')}}">CONTACT US</a></li>
@@ -18,6 +18,7 @@
           </div>
         </div>
     </div>
+
 </section>
 
 <div class="sticky-top o-09" id="sticky">
@@ -87,28 +88,6 @@
                         <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Services</a>
                       </li>
                     </ul>
-                          <!-- <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Products</a>
-                          <a class="dropdown-item click-menu" href="#"><i class="bi bi-plus"></i> 
-                              Packaging
-                              <div class="sub-dropdown" style="display:none;">
-                                  <ul style="list-style: none;">
-                                      <li>
-                                        <i class="bi bi-plus"></i> Primary Packaging
-                                      </li>
-                                      <li>
-                                          <i class="bi bi-plus"></i>Secondary Packaging
-                                      </li>
-                                      <li>
-                                          <i class="bi bi-plus"></i>Tertiary Packaging
-                                      </li>
-                                  </ul>
-                              </div>
-                          </a>
-                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Specialty Packaging</a>
-                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Food Service Products</a>
-                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Paper and Pulp</a>
-                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Forestry</a>
-                          <a class="dropdown-item" href="#"><i class="bi bi-plus"></i> Services</a> -->
                     </div>
                 </li>
                 <li class="px-2">
@@ -223,8 +202,8 @@ body {
 .header__container {
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 0.85em;
-  padding-right: 0.85em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .header ul {
   margin: 0;

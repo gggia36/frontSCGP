@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-<section class="position-relative" style="margin-bottom: -80px;">
-	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl" style="bottom: 80px;z-index: 0;">
+<section class="position-relative mBottom-minus80">
+	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl backdropHeader">
 	    <div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	   	<div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	</div>
@@ -427,7 +427,7 @@
 				<h5 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
 			</div>
 			<div class="col-12">
-				<img class="w-75" src="{{asset('assets/Images/img-customer-sm.png')}}">
+				<img class="w-100" src="{{asset('assets/Images/img-customer-sm.png')}}">
 			</div>
 		</div>
 	</div>

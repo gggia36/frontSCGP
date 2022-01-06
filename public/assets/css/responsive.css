@@ -163,6 +163,21 @@
         padding-right: 0rem;
         padding-left: 0.5rem;
     }
+
+    .backdropHeader {
+        bottom: 80px;
+        z-index: 0;
+    }
+
+    .mBottom-minus80 {
+        margin-bottom: -80px;
+    }
+}
+
+@media (max-width: 991px) {
+    #MyContact {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
