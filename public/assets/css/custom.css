@@ -70,6 +70,14 @@ a:focus {
 .fix-mar-nav-top{
     margin: 0rem -.7rem;
 }
+.img-nav-icon-mobile{
+    border-radius: 4rem;
+    border: 1px solid;
+    width: 60%;
+}
+.fix-img-sotion{
+    width: 18%;
+}
 .txt-7{
     font-size: .7rem;
 }
@@ -668,7 +676,32 @@ a:focus {
 }
 .front p {
     position: relative;
-    top: -90px;
+    /* top: -90px; */
+    bottom: 50px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 1px 7px #000000ad;
+    line-height: 40px;
+    color: #fff;
+    transition: all 0.4s;
+    font-family: 'SCG Bold';
+}
+.front0 p:before {
+    font-family: "entypo";
+    margin-right: 5px;
+    background: #0a6e3b;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #51d491;
+}
+.front0 p {
+    position: relative;
+    /* top: -90px; */
+    bottom: 90px;
     font-size: 30px;
     color: #fff;
     text-shadow: 2px 1px 7px #000000ad;

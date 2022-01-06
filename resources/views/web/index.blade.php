@@ -26,7 +26,7 @@
 			<div class="col-md-3 my-2">
 				<div class="wrap">
 				  <div class="front position-relative">
-				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}" />
+				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/Packaging.jpg')}}" />
 					<div class="front-title-solution"></div>
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
@@ -41,7 +41,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front position-relative">
+				  <div class="front0 position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front position-relative">
+				  <div class="front0 position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x2.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Foodservice Product</p>
@@ -171,8 +171,7 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img class="fix-img-sotion" src="{{asset('assets/Images/small.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -201,8 +200,7 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img class="fix-img-sotion" src="{{asset('assets/Images/smart.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -216,8 +214,7 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img class="fix-img-sotion" src="{{asset('assets/Images/e-com.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -231,8 +228,7 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img class="fix-img-sotion" src="{{asset('assets/Images/mar.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -440,8 +436,10 @@
 	.bg-image-solutions {
     background-image: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: contain; 
     background-position-x: right;
+    background-attachment: fixed !important;
+    background-position: 800% !important;
 }
 .back4{
   opacity:0;
