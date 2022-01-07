@@ -1,7 +1,7 @@
 <section class="bg-footer border-tb">
   <div class="container py-5">
     <div class="row">
-      <div class="col-md-12 col-lg-6 col-12 pb-lg-0 pb-3 txt-footer d-flex justify-content-center d-flex justify-content-lg-start font-sm-x-small text-md-start text-center">
+      <div class="col-md-12 col-lg-6 col-12 pb-lg-0 pb-3 txt-footer d-flex justify-content-center d-flex justify-content-lg-start font-sm-x-small text-lg-start text-center">
         SCG PACKAGING PUBLIC COMPANY LIMITED<br>
         1 SIAM CEMENT RD., BANGSUE, BANGKOK<br>
         10800, THAILAND

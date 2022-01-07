@@ -158,7 +158,9 @@
    </nav> -->
 
   <div id="mySidenav" class="sidenav">
-    <div class="d-flex align-items-center">
+
+  <div class="pt-2" style="background: #FFF;">
+  <div class="d-flex align-items-center">
         <div class="w-25 text-center">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
         </div>
@@ -215,19 +217,25 @@
         <a href="#">Business Update</a> 
       </li>
     </ul>
+  </div>
 
-    <div class="d-flex justify-content-evenly align-items-center  mt-3">
-      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/message-ff.jpeg')}}" alt="" /></div>
-      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI-yy.jpeg')}}" alt="" /></div>
-      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI-tt.jpeg')}}" alt="" /></div>
-      <div class="text-center"><img  class="img-nav-icon-mobile" src="{{asset('assets/Images/messageI.jpeg')}}" alt="" /></div>
-    </div>
+    <div class="pt-4 px-2" style="">
 
-    <div class="row">
-      <div class="col-12 mt-3 text-center">
-          ENG <span class="px-2">|</span> ไทย
+      <div class="d-flex justify-content-evenly">
+        <div class="text-center"><img  class="w-100" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></div>
+        <div class="text-center"><img  class="w-100" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></div>
+        <div class="text-center"><img  class="w-100" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></div>
+        <div class="text-center"><img  class="w-100" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></div>
       </div>
+
+      <div class="row">
+        <div class="col-12 mt-4 text-center font-white">
+            ENG <span class="px-2">|</span> ไทย
+        </div>
+      </div>
+
     </div>
+
 
   </div>
   <div class="backdrop" id="backdrop"></div>
@@ -239,6 +247,9 @@
 
 
 <style type="text/css">
+.font-white {
+  color: #FFF;
+}
 .sidenav {
   height: 100%;
   width: 0px;
@@ -246,11 +257,13 @@
   z-index: 999;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background: #1c1666;
+  /* background-color: #fff; */
   overflow-y: auto;
   overflow-x: hidden;
   transition: 0.5s;
-  padding: 15px 0px;
+  /* padding: 15px 0px 0px 0px; */
+  padding: 0px;
   font-size: 1rem;
 }
 
@@ -281,8 +294,17 @@
   padding: 10px 15px;
   font-size: 1rem;
   border-bottom: 1px solid #c4c4c4;
-  color: #294661;
+  /* color: #294661; */
 }
+
+.navMenuMb-item a {
+  color: #0061ad;
+}
+
+.navMenuMb-item a:focus {
+  color: #1c1666;
+}
+
 
 .sub-menu-mb {
   list-style:none;

@@ -483,7 +483,7 @@ a:focus {
 }
 .btn-grad {
     margin: 10px;
-    padding: 5px 15px;
+    padding: 0.2rem 0.5rem;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -811,9 +811,11 @@ a:focus {
 .wrap:hover .front p {
     top: 0;
 }
+
 .wrap .back:hover {
     opacity: 1;
 }
+
 .wrap .back:hover h1:before,
 .wrap .back:hover p {
     top: 0;
@@ -978,6 +980,16 @@ a.set-a:focus{
 
 .o-09 {
     opacity: 0.9;
+}
+
+#bg-consumer {
+    background: url('/assets/Images/Upper-BG.png');
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+}
+
+.font-solution {
+    font-size: 1rem;
 }
 
 /* .card-header-fix:not(.collapse){

@@ -3,11 +3,11 @@
         color: #0061ad;
         font-size: 14px;
     }
-    .btn-grad {
+    /* .btn-grad {
         margin: 10px;
         padding: 5px 15px;
         text-align: center;;
-    }
+    } */
         
 }
 
@@ -177,6 +177,22 @@
 @media (max-width: 991px) {
     #MyContact {
         display: none;
+    }
+
+    .btn-carousel {
+        position: absolute;
+        bottom: 10%;
+        left: 13%;
+        z-index: 2;
+        padding: 0.1rem 0.5rem;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 3rem;
+        display: block;
+        font-size: 0.9rem;
     }
 }
 
@@ -384,8 +400,29 @@
         border-radius: 0rem;
         border: none;
     }
+
+    #bg-consumer {
+        background: #f5f4f4;
+    }
+
+    .font-solution {
+        font-size: 0.8rem;
+    }
+
+    .bg-image-solutions {
+        height: 300px;
+    }
+
 }
 @media (max-width: 500px) {
+
+    .top-carousel-owl .owl-next {
+	    font-size: 2rem !important;
+	}
+	.top-carousel-owl .owl-prev {
+	    font-size: 2rem !important;
+	}
+
     .bg-image-solutions {
         height: 250px;
     }

@@ -8,7 +8,7 @@
 	<button type="button" class="btn btn-primary btn-carousel">Read More</button>
 </section>
 
-<section  style="background: url('assets/Images/Upper-BG.png');background-repeat: no-repeat; background-size:100% 100%;">
+<section id="bg-consumer">
 	<div class="container pt-5">
 		<div class="row">
 			<div class="col-12 py-5" data-aos="fade-up" data-aos-duration="1000">
@@ -26,11 +26,11 @@
 			<div class="col-md-3 my-2">
 				<div class="wrap">
 				  <div class="front position-relative">
-				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/Packaging.jpg')}}" />
+				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}" />
 					<div class="front-title-solution"></div>
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
-				  <div class="back ">
+				  <div class="back">
 				     <h1 class="entypo-mobile text-uppercase">PACKAGING</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
@@ -41,7 +41,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front0 position-relative">
+				  <div class="front position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-md-3 my-2">
 				<div class="wrap">
-				  <div class="front0 position-relative">
+				  <div class="front position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x2.png')}}"/>
 					 <div class="front-title-solution"></div>
 				   	 <p class="entypo-mobile text-uppercase">Foodservice Product</p>
@@ -147,7 +147,7 @@
 			</div>
 			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000">
 				<h1 class="txt-blue pt-4" >SOLUTIONS</h1>
-				<div class="">
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  px-0  set-a" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 					   Circular economy solutions
 					  </a>
@@ -163,7 +163,7 @@
 						</div>
 				</div>				
 
-				<div>
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0 set-a" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
 					  Small lot solutions
 					  </a>
@@ -171,13 +171,14 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img class="fix-img-sotion" src="{{asset('assets/Images/small.png')}}">
+									<img src="{{asset('assets/Images/img-x7.png')}}">
+									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
-				<div>
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
 					  Convenience solutions
 					  </a>
@@ -192,7 +193,7 @@
 						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
-				<div>
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
 					  Smart and functional solutions
 					  </a>
@@ -200,13 +201,14 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img class="fix-img-sotion" src="{{asset('assets/Images/smart.png')}}">
+									<img src="{{asset('assets/Images/img-x7.png')}}">
+									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
-				<div>
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
 					  E-commerce solutions
 					  </a>
@@ -214,13 +216,14 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img class="fix-img-sotion" src="{{asset('assets/Images/e-com.png')}}">
+									<img src="{{asset('assets/Images/img-x7.png')}}">
+									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
 						</div>
 				</div>
-				<div>
+				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  set-a" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
 					  Marketing event solutions
 					  </a>
@@ -228,7 +231,8 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img class="fix-img-sotion" src="{{asset('assets/Images/mar.png')}}">
+									<img src="{{asset('assets/Images/img-x7.png')}}">
+									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -433,14 +437,6 @@
 
 
 <style type="text/css">
-	.bg-image-solutions {
-    background-image: url('assets/Images/img-x9.png');
-    background-repeat: no-repeat;
-    background-size: contain; 
-    background-position-x: right;
-    background-attachment: fixed !important;
-    background-position: 800% !important;
-}
 .back4{
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail-slide.png');
@@ -481,12 +477,14 @@
   left:0;
   transition:all .7s linear;
 }
+
 .bg-image-solutions {
     background: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position-x: right;
 }
+
 </style>
 @endsection
 
