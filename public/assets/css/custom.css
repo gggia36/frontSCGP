@@ -354,7 +354,7 @@ a:focus {
 .menuNav li .menu-item:focus, .menuNav li .menu-item:hover {
     color: #1d1666;
     background-color: #ffffff00;
-    font-family: 'SCG Bold';
+    font-family: "SCG Regular";
     border-bottom: 2px solid !important;
     border-bottom: 1px solid #1d1666;
 }
@@ -406,7 +406,7 @@ a:focus {
 .sub-menu-item:focus, .sub-menu-item:hover {
     color: #1d1666;
     background-color: #ffffff00;
-    font-family: 'SCG Bold';
+    font-family: "SCG Regular";
     border-bottom: 2px solid !important;
     border-image: radial-gradient(rgb(236 45 39), rgb(248 172 28)) 1 !important;
 }

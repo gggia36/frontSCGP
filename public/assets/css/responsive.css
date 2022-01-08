@@ -1,3 +1,15 @@
+@media (max-width: 1799px) and (min-width: 1500px){
+    .test {
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 1499px) and (min-width: 1399px){
+    .test {
+        padding-right: 6rem;
+    }
+}
+
 @media (max-width: 1499px) {
     .navbar-light .navbar-nav .nav-link {
         color: #0061ad;
