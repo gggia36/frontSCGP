@@ -436,10 +436,10 @@
 .bg-image-solutions {
     background-image: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position-x: right;
+    background-size: 90%;
+    background-position-x: left;
     background-attachment: fixed !important;
-    background-position: 800% !important;
+    background-position: -40rem;
 }
 
 .back4{
