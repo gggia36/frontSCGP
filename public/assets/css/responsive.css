@@ -429,6 +429,22 @@
 	    font-size: 2rem !important;
 	}
 
+    .owl-carousel-new .owl-next {
+        right: 0% !important;
+    }
+    
+    .owl-carousel-new .owl-prev {
+        left: 0% !important;
+    }
+
+    .owl-carousel-product .owl-next {
+        right: 0% !important;
+    }
+    
+    .owl-carousel-product .owl-prev {
+        left: 0% !important;
+    }
+
     .bg-image-solutions {
         height: 250px;
     }

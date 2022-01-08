@@ -941,6 +941,7 @@ a:focus {
     position: relative;
     color: #000;
     transition: all 0.4s;
+    font-size: 1rem;
 }
 .back4 p {
     font-size: 16px;
@@ -964,6 +965,7 @@ a:focus {
     position: relative;
     color: #000;
     transition: all 0.4s;
+    font-size: 1rem;
 }
 .input-contact{
     border: #9b9b9b 0.10417vw solid;
