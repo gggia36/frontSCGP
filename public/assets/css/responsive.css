@@ -415,6 +415,12 @@
 
 }
 @media (max-width: 500px) {
+    .fix-fonttext-footer{
+        font-size: 14px;
+    }
+    .front-to-slide{
+        font-size: 16px;
+    }
 
     .top-carousel-owl .owl-next {
 	    font-size: 2rem !important;

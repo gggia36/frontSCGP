@@ -26,7 +26,7 @@
 			<div class="col-md-3 my-2">
 				<div class="wrap">
 				  <div class="front position-relative">
-				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}" />
+				    <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/Packaging.jpg')}}" />
 					<div class="front-title-solution"></div>
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
@@ -255,7 +255,7 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x13.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
@@ -266,7 +266,7 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x12.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
@@ -277,7 +277,7 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x11.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
@@ -288,7 +288,7 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
@@ -299,7 +299,7 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
@@ -331,7 +331,7 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back4">
@@ -342,7 +342,7 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x14.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p>SCGP makes inroads into
+							<p class="front-to-slide">SCGP makes inroads into
 							medical supplies and labware
 							industry Signing of a share...</p>
 						</div>
@@ -358,7 +358,7 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x15.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p>SCGP tops up its success
+							<p class="front-to-slide">SCGP tops up its success
 							in Indonesia, expands
 							investment...</p>
 						</div>
@@ -374,7 +374,7 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x16.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p>SCGP tops up its success in
+							<p class="front-to-slide">SCGP tops up its success in
 							Indonesia, expands investment
 							portfolio in downstream...</p>
 						</div>
@@ -389,7 +389,7 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x13.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back4">
@@ -424,7 +424,7 @@
 	<div class="container">
 		<div class="row text-center py-3" >
 			<div class="col-12">
-				<h5 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
+				<h5 class="txt-blue fix-fonttext-footer">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
 			</div>
 			<div class="col-12">
 				<img class="w-100" src="{{asset('assets/Images/img-customer-sm.png')}}">
@@ -459,7 +459,7 @@
 }
 .back2{
   opacity:0;
-  background-image: url('assets/Images/hover-thumbnail.png');
+  background-image: url('assets/Images/hover-thumbnail-long.png');
   background-size: 100%;
   position:absolute;
   overflow:hidden;
@@ -483,6 +483,19 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-position-x: right;
+}
+
+@media (max-width: 1199px) {
+	.back2{
+  opacity:0;
+  background-image: url('assets/Images/hover-thumbnail.png');
+  background-size: 100%;
+  position:absolute;
+  overflow:hidden;
+  top:0;
+  left:0;
+  transition:all .7s linear;
+}
 }
 
 </style>
