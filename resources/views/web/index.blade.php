@@ -155,8 +155,7 @@
 						  <div class="card card-fix card-body pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img src="{{asset('assets/Images/ci.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -171,8 +170,7 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img src="{{asset('assets/Images/small.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -201,8 +199,7 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img src="{{asset('assets/Images/smart.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -216,8 +213,7 @@
 						 <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img src="{{asset('assets/Images/e-com.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -231,8 +227,7 @@
 						  <div class="card card-fix card-body">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
-									<img src="{{asset('assets/Images/img-x7.png')}}">
-									<img src="{{asset('assets/Images/img-x8.png')}}">
+									<img src="{{asset('assets/Images/mar.png')}}">
 								</div>
 						  </div>
 						  <button class="btn btn-grad">Read mord</button>
@@ -445,7 +440,7 @@
   overflow:hidden;
   top:0;
   left:0;
-  transition:all .7s linear;
+  transition:all .4s linear;
 }
 .back3{
   opacity:0;
@@ -455,7 +450,7 @@
   overflow:hidden;
   top:0;
   left:0;
-  transition:all .7s linear;
+  transition:all .4s linear;
 }
 .back2{
   opacity:0;
@@ -465,7 +460,7 @@
   overflow:hidden;
   top:0;
   left:0;
-  transition:all .7s linear;
+  transition:all .4s linear;
 }
 .back{
   opacity:0;
@@ -475,7 +470,7 @@
   overflow:hidden;
   top:0;
   left:0;
-  transition:all .7s linear;
+  transition:all .4s linear;
 }
 
 .bg-image-solutions {
@@ -494,7 +489,7 @@
   overflow:hidden;
   top:0;
   left:0;
-  transition:all .7s linear;
+  transition:all .4s linear;
 }
 }
 
