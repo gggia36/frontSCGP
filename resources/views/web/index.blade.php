@@ -492,15 +492,35 @@
 
 @media (max-width: 1199px) {
 	.back2{
-  opacity:0;
-  background-image: url('assets/Images/hover-thumbnail.png');
-  background-size: 100%;
-  position:absolute;
-  overflow:hidden;
-  top:0;
-  left:0;
-  transition:all .4s linear;
+	  opacity:0;
+	  background-image: url('assets/Images/hover-thumbnail.png');
+	  background-size: 100%;
+	  position:absolute;
+	  overflow:hidden;
+	  top:0;
+	  left:0;
+	  transition:all .4s linear;
+	}
+	.bg-image-solutions {
+    background-image: url(assets/Images/img-x9.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: left;
+    background-attachment: fixed !important;
+    background-position: -34rem;
 }
+	
+}
+
+@media (max-width: 768px) {
+	
+	.bg-image-solutions {
+	    background-image: url('assets/Images/img-x9.png');
+    	background-size: 100%;
+	    background-repeat: no-repeat;
+	    background-attachment: unset !important;
+	    background-position: 0rem; 
+	}
 }
 
 </style>
