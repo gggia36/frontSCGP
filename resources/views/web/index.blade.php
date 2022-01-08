@@ -432,6 +432,16 @@
 
 
 <style type="text/css">
+
+.bg-image-solutions {
+    background-image: url('assets/Images/img-x9.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position-x: right;
+    background-attachment: fixed !important;
+    background-position: 800% !important;
+}
+
 .back4{
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail-slide.png');
@@ -473,12 +483,12 @@
   transition:all .4s linear;
 }
 
-.bg-image-solutions {
+/* .bg-image-solutions {
     background: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position-x: right;
-}
+} */
 
 @media (max-width: 1199px) {
 	.back2{
