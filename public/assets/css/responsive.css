@@ -430,6 +430,11 @@
     .fix-fonttext-footer{
         font-size: 14px;
     }
+    .box-show-card > h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: 'SCG Bold';
+    }
     .front-to-slide{
         font-size: 16px;
     }
