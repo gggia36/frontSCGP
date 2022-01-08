@@ -401,6 +401,7 @@ a:focus {
 
 .sub-menu li a {
     text-decoration: none;
+    color: #0061ad;
 }
 
 .sub-menu-item:focus, .sub-menu-item:hover {

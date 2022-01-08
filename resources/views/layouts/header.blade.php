@@ -316,12 +316,14 @@
   display: block;
   width: 100%;
   padding: 3px 8px;
+  color: #0061ad;
 }
 
 .sub-menu-mb-item2 {
   display: block;
   width: 100%;
   padding: 3px 10px;
+  color: #0061ad;
 }
 
 .dropdown-toggle::after {
