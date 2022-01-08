@@ -812,9 +812,16 @@ a:focus {
     top: 0;
 }
 
+.wrap .back {
+    opacity: 0; 
+    transform:translateX(-50px);
+}
+
 .wrap .back:hover {
     opacity: 1;
+    transform:translateX(0px);
 }
+
 
 .wrap .back:hover h1:before,
 .wrap .back:hover p {
@@ -831,9 +838,17 @@ a:focus {
 .wrap2:hover .front p {
     top: 0;
 }
+
+.wrap2 .back2 {
+    opacity: 0; 
+    transform:translateX(-50px);
+}
+
 .wrap2 .back2:hover {
     opacity: 1;
+    transform:translateX(0px);
 }
+
 .wrap2 .back2:hover h1:before,
 .wrap2 .back2:hover p {
     top: 0;
@@ -849,9 +864,17 @@ a:focus {
 .wrap3:hover .front p {
     top: 0;
 }
+
+.wrap3 .back3 {
+    opacity: 0; 
+    transform:translateX(-50px);
+}
+
 .wrap3 .back3:hover {
     opacity: 1;
+    transform:translateX(0px);
 }
+
 .wrap3 .back2:hover h1:before,
 .wrap3 .back2:hover p {
     top: 0;
@@ -867,9 +890,17 @@ a:focus {
 .wrap4:hover .front p {
     top: 0;
 }
+
+.wrap4 .back4 {
+    opacity: 0; 
+    transform:translateX(-50px);
+}
+
 .wrap4 .back4:hover {
     opacity: 1;
+    transform:translateX(0px);
 }
+
 .wrap4 .back4:hover h1:before,
 .wrap4 .back4:hover p {
     top: 0;

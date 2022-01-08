@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="{{asset('OwlCarousel/dist/assets/owl.carousel.min.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/custom.css?v=19')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 	<!-- aos -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
