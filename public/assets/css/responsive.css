@@ -1,11 +1,11 @@
 @media (max-width: 1799px) and (min-width: 1500px){
-    .test {
+    .space-contact {
         padding-right: 3rem;
     }
 }
 
 @media (max-width: 1499px) and (min-width: 1399px){
-    .test {
+    .space-contact {
         padding-right: 6rem;
     }
 }

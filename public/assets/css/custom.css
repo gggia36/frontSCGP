@@ -487,7 +487,6 @@ a:focus {
     margin: 10px;
     padding: 0.2rem 0.5rem;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
@@ -814,7 +813,7 @@ a:focus {
     top: 0;
 }
 
-.wrap .back {
+/* .wrap .back {
     opacity: 0; 
     transform:translateY(-120px);
 }
@@ -822,8 +821,21 @@ a:focus {
 .wrap .back:hover {
     opacity: 1;
     transform:translateX(0px);
+} */
+
+.back {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    border-radius: 10px;
 }
 
+.wrap:hover > .back {
+    opacity: 1;
+    width: 100%;
+    height: 300px;
+    border-radius: 0px;
+}
 
 .wrap .back:hover h1:before,
 .wrap .back:hover p {

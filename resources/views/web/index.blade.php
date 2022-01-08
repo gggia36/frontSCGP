@@ -30,7 +30,7 @@
 					<div class="front-title-solution"></div>
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
-				  <div class="back">
+				  <div class="back test">
 				     <h1 class="entypo-mobile text-uppercase">PACKAGING</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
@@ -158,7 +158,7 @@
 									<img src="{{asset('assets/Images/ci.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>				
 
@@ -173,7 +173,7 @@
 									<img src="{{asset('assets/Images/small.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -188,7 +188,7 @@
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -202,7 +202,7 @@
 									<img src="{{asset('assets/Images/smart.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -216,7 +216,7 @@
 									<img src="{{asset('assets/Images/e-com.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -230,7 +230,7 @@
 									<img src="{{asset('assets/Images/mar.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read mord</button>
+						  <button class="btn btn-grad">Read More</button>
 						</div>
 				</div>
 			</div>

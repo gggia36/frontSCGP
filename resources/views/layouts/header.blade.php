@@ -3,7 +3,7 @@
     <div class="container px-xxl-5 py-2">
         <div class="row align-items-center" id="MyContact">
           <div class="col-xxl-10 col-9 text-end">
-            <ul class="dis-none-style float-end align-items-center test">
+            <ul class="dis-none-style float-end align-items-center space-contact">
                 <li><a class="text-white pe-3 " href="{{url('contact')}}">CONTACT US</a></li>
                 <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></li>
                 <li class="fix-mar-nav-top"><img class="w-50" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></li>
