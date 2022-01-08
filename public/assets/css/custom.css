@@ -685,7 +685,7 @@ a:focus {
     text-shadow: 2px 1px 7px #000000ad;
     line-height: 40px;
     color: #fff;
-    transition: all 0.4s;
+    transition: all 0.3s;
     font-family: 'SCG Bold';
 }
 .front0 p:before {
@@ -709,7 +709,7 @@ a:focus {
     text-shadow: 2px 1px 7px #000000ad;
     line-height: 40px;
     color: #fff;
-    transition: all 0.4s;
+    transition: all 0.3s;
     font-family: 'SCG Bold';
 }
 
@@ -816,7 +816,7 @@ a:focus {
 
 .wrap .back {
     opacity: 0; 
-    transform:translateX(-50px);
+    transform:translateY(-120px);
 }
 
 .wrap .back:hover {
@@ -843,7 +843,7 @@ a:focus {
 
 .wrap2 .back2 {
     opacity: 0; 
-    transform:translateX(-50px);
+    transform:translateY(-120px);
 }
 
 .wrap2 .back2:hover {
@@ -869,7 +869,7 @@ a:focus {
 
 .wrap3 .back3 {
     opacity: 0; 
-    transform:translateX(-50px);
+    transform:translateY(-120px);
 }
 
 .wrap3 .back3:hover {
@@ -895,7 +895,7 @@ a:focus {
 
 .wrap4 .back4 {
     opacity: 0; 
-    transform:translateX(-50px);
+   transform:translateY(-120px);
 }
 
 .wrap4 .back4:hover {
