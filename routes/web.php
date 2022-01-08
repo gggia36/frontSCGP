@@ -25,3 +25,15 @@ Route::get('privacy', function () {
 Route::get('contact', function () {
     return view('web.contact');
 });
+Route::get('sustainable', function () {
+    return view('web.sustainable');
+});
+Route::get('sustainable', function () {
+    return view('web.sustainable');
+});
+Route::get('sustainable-detail', function () {
+    return view('web.sustainable-detail');
+});
+Route::get('packaging', function () {
+    return view('web.packaging');
+});
