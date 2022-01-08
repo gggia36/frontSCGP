@@ -30,7 +30,7 @@
 					<div class="front-title-solution"></div>
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
-				  <div class="back test">
+				  <div class="back">
 				     <h1 class="entypo-mobile text-uppercase">PACKAGING</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
