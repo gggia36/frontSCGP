@@ -5,7 +5,7 @@
 
     <div class="row">
         <div class="col-12 text-center mt-5 pt-5">
-            <h1 class="CSR-Title">CSR Highlight</h1>
+            <h1 class="Page-Title">CSR Highlight</h1>
         </div>
     </div>
 
@@ -246,11 +246,6 @@
 
 
 <style>
-    .CSR-Title {
-        color: #1c1666;
-        text-transform: uppercase;
-        font-family: "SCG Bold";
-    }
     .bg-white {
         background: #FFF;
     }
