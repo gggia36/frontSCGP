@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="{{asset('OwlCarousel/dist/assets/owl.carousel.min.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/custom.css?v=19')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 	<!-- aos -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -73,11 +76,40 @@
 	  $(".click-menu").click(function(){
 	    $(".sub-dropdown").toggle();
 	  });
+
+	  $('.center').slick({
+			centerMode: true,
+			centerPadding: '100px',
+			slidesToShow: 3,
+			// fade: true,
+			// cssEase: 'linear',
+			responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 3
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+				}
+			}
+			]
+		});
+
 	});
 
 
 </script>
 
 </body>
-
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </html>
