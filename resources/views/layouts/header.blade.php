@@ -110,138 +110,117 @@
   </nav>
 </div>
 
+<div class="sticky-top">
 <div class="demo-container d-lg-none d-md-block d-block">
   
- <!-- nav -->
-  <header class="header">
-    <nav class="primary">
-        <div class="header__container">
-          <ul>
-            <li class="logo text-end">
-                <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
-            </li>
-            <li class="mobile-nav">
-              <button id="nav-toggle" onclick="openNav()">
-                <span class="menu"></span>
-              </button>
-            </li>
-          </ul>
-        </div>
-    </nav>
- </header>
- <!-- /nav -->
- <!-- mobile nav menu -->
-   <!-- <nav class="mobile">
-     <ul>
-       <li class="link">
-         <a class="text-uppercase" href="">About us</a>
+  <!-- nav -->
+   <header class="header">
+     <nav class="primary">
+         <div class="header__container">
+           <ul>
+             <li class="logo text-end">
+                 <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}">
+             </li>
+             <li class="mobile-nav">
+               <button id="nav-toggle" onclick="openNav()">
+                 <span class="menu"></span>
+               </button>
+             </li>
+           </ul>
+         </div>
+     </nav>
+  </header>
+  <!-- /nav -->
+  <!-- mobile nav menu -->
+ 
+   <div id="mySidenav" class="sidenav">
+ 
+   <div class="pt-2" style="background: #FFF;">
+   <div class="d-flex align-items-center">
+         <div class="w-25 text-center">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+         </div>
+         <div class="w-75">
+             <hr class="w-100">
+         </div>
+     </div>
+ 
+     <ul class="navMenuMb">
+       <li class="navMenuMb-item">
+         <a href="#">About us</a>
        </li>
-
-       <li class="link">
-         <a class="text-uppercase" href="">Products & Services</a>
+       <li class="navMenuMb-item">
+         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
+            <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+         </div>  
+         
+         <div class="collapse" id="collapseProducts">
+           <ul class="sub-menu-mb">
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
+             <li class="sub-menu-mb-item">
+               <a href="javascript:void(0)" role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
+                 <i class="bi bi-plus"></i> Packaging
+               </a>
+               
+               <div class="collapse" id="collapsePackaging">
+                   <ul class="sub-menu-mb">
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Primary Packaging</a> </li>
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Secondary Packaging</a></li>
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Tertiary Packaging</a></li>
+                   </ul>
+               </div>
+             
+             </li>
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Specialty Packaging</li>
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Food Service Products</li>
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Paper and Pulp</li>
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Forestry</li>
+             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Services</li>
+           </ul>   
+         </div>
+         
        </li>
-
-       <li class="link link--selected">
-         <a class="text-uppercase" href="">Solutions</a>
+       <li class="navMenuMb-item">
+         <a href="#">Solutions</a>
        </li>
-
-       <li class="link">
-         <a class="text-uppercase" href="">Debenture / Investor Relations </a>
+       <li class="navMenuMb-item">
+         <a href="#">Debenture / Investor Relations</a>
        </li>
-       <li class="link">
-         <a class="text-uppercase" href="">Sustainable Development </a>
+       <li class="navMenuMb-item">
+         <a href="#">Sustainable Development</a> 
        </li>
-       <li class="link">
-         <a class="text-uppercase" href="">Business Update</a>
+       <li class="navMenuMb-item">
+         <a href="#">Business Update</a> 
        </li>
      </ul>
-   </nav> -->
-
-  <div id="mySidenav" class="sidenav">
-
-  <div class="pt-2" style="background: #FFF;">
-  <div class="d-flex align-items-center">
-        <div class="w-25 text-center">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-        </div>
-        <div class="w-75">
-            <hr class="w-100">
-        </div>
-    </div>
-
-    <ul class="navMenuMb">
-      <li class="navMenuMb-item">
-        <a href="#">About us</a>
-      </li>
-      <li class="navMenuMb-item">
-        <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
-           <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
-        </div>  
-        
-        <div class="collapse" id="collapseProducts">
-          <ul class="sub-menu-mb">
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
-            <li class="sub-menu-mb-item">
-              <a href="javascript:void(0)" role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
-                <i class="bi bi-plus"></i> Packaging
-              </a>
-              
-              <div class="collapse" id="collapsePackaging">
-                  <ul class="sub-menu-mb">
-                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Primary Packaging</a> </li>
-                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Secondary Packaging</a></li>
-                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Tertiary Packaging</a></li>
-                  </ul>
-              </div>
-            
-            </li>
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Specialty Packaging</li>
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Food Service Products</li>
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Paper and Pulp</li>
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Forestry</li>
-            <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Services</li>
-          </ul>   
-        </div>
-        
-      </li>
-      <li class="navMenuMb-item">
-        <a href="#">Solutions</a>
-      </li>
-      <li class="navMenuMb-item">
-        <a href="#">Debenture / Investor Relations</a>
-      </li>
-      <li class="navMenuMb-item">
-        <a href="#">Sustainable Development</a> 
-      </li>
-      <li class="navMenuMb-item">
-        <a href="#">Business Update</a> 
-      </li>
-    </ul>
-  </div>
-
-    <div class="pt-4 px-2" style="">
-
-      <div class="d-flex justify-content-evenly">
-        <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></div>
-        <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></div>
-        <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></div>
-        <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 mt-4 text-center font-white">
-            ENG <span class="px-2">|</span> ไทย
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-  <div class="backdrop" id="backdrop"></div>
- <!-- /mobile nav menu -->
-  
+   </div>
+ 
+     <div class="pt-4 px-2" style="">
+ 
+       <div class="d-flex justify-content-evenly">
+         <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></div>
+         <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></div>
+         <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></div>
+         <div class="text-center"><img  class="w-75" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></div>
+       </div>
+ 
+       <div class="row">
+         <div class="col-12 mt-4 text-center font-white">
+             ENG <span class="px-2">|</span> ไทย
+         </div>
+       </div>
+ 
+     </div>
+ 
+ 
+   </div>
+   <div class="backdrop" id="backdrop"></div>
+  <!-- /mobile nav menu -->
+   
+ </div>  
 </div>
+
+
 
 
 
