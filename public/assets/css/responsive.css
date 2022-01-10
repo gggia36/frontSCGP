@@ -1,14 +1,27 @@
 @media (max-width: 1799px) and (min-width: 1500px){
     .space-contact {
-        padding-right: 3rem;
+        padding-right: 5rem;
     }
 }
 
 @media (max-width: 1499px) and (min-width: 1399px){
     .space-contact {
-        padding-right: 6rem;
+        padding-right: 7rem;
     }
 }
+
+@media (max-width: 1399px) and (min-width: 1201px){
+    .space-contact {
+        padding-right: 1.5rem;
+    }
+}
+
+@media (max-width: 1099px) and (min-width: 991px){
+    .space-contact {
+        padding-right: 1.5rem;
+    }
+}
+
 
 @media (max-width: 1499px) {
     .navbar-light .navbar-nav .nav-link {

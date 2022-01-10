@@ -23,7 +23,7 @@
 
 <div class="sticky-top o-09" id="sticky">
   <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white  d-md-none d-lg-block d-none">
-      <div class="container px-xxl-5">
+      <div class="container">
         
         <div class="headerNavber">
           <div class="headerBrand">
