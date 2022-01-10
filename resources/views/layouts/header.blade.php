@@ -182,15 +182,15 @@
           <ul class="sub-menu-mb">
             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
             <li class="sub-menu-mb-item">
-              <div role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
+              <a href="javascript:void(0)" role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
                 <i class="bi bi-plus"></i> Packaging
-              </div>
+              </a>
               
               <div class="collapse" id="collapsePackaging">
                   <ul class="sub-menu-mb">
-                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Primary Packaging</li>
-                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Secondary Packaging</li>
-                    <li class="sub-menu-mb-item2"><i class="bi bi-plus"></i> Tertiary Packaging</li>
+                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Primary Packaging</a> </li>
+                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Secondary Packaging</a></li>
+                    <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Tertiary Packaging</a></li>
                   </ul>
               </div>
             
@@ -317,6 +317,7 @@
   width: 100%;
   padding: 3px 8px;
   color: #0061ad;
+  cursor: pointer;
 }
 
 .sub-menu-mb-item2 {
@@ -324,6 +325,15 @@
   width: 100%;
   padding: 3px 10px;
   color: #0061ad;
+  cursor: pointer;
+}
+
+.sub-menu-mb-item:focus{
+  color: #1c1666;
+}
+
+.sub-menu-mb-item2:focus {
+  color: #1c1666;
 }
 
 .dropdown-toggle::after {

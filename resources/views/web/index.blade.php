@@ -152,13 +152,13 @@
 					   Circular economy solutions
 					  </a>
 						<div class="collapse show" id="collapseExample" data-bs-parent="#collapseSolution">
-						  <div class="card card-fix card-body pb-0">
+						  <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/ci.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>				
 
@@ -167,13 +167,13 @@
 					  Small lot solutions
 					  </a>
 						<div class="collapse" id="collapseExample1" data-bs-parent="#collapseSolution">
-						 <div class="card card-fix card-body">
+						 <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/small.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -181,14 +181,14 @@
 					  Convenience solutions
 					  </a>
 						<div class="collapse" id="collapseExample5" data-bs-parent="#collapseSolution">
-						 <div class="card card-fix card-body">
+						 <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -196,13 +196,13 @@
 					  Smart and functional solutions
 					  </a>
 						<div class="collapse" id="collapseExample2" data-bs-parent="#collapseSolution">
-						  <div class="card card-fix card-body">
+						  <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/smart.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -210,13 +210,13 @@
 					  E-commerce solutions
 					  </a>
 						<div class="collapse" id="collapseExample3" data-bs-parent="#collapseSolution">
-						 <div class="card card-fix card-body">
+						 <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/e-com.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>
 				<div class="font-solution">
@@ -224,13 +224,13 @@
 					  Marketing event solutions
 					  </a>
 						<div class="collapse" id="collapseExample4" data-bs-parent="#collapseSolution">
-						  <div class="card card-fix card-body">
+						  <div class="card card-fix card-body px-md-3 px-0 pb-0">
 						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/mar.png')}}">
 								</div>
 						  </div>
-						  <button class="btn btn-grad">Read More</button>
+						  <button class="btn btn-grad mx-md-3 mx-0 my-2">Read More</button>
 						</div>
 				</div>
 			</div>
