@@ -1164,6 +1164,27 @@ a.set-a:focus{
     font-family: "SCG Bold";
 }
 
+#zero-carousel .owl-prev {
+    left: 31% !important;
+    color: #0a70b6 !important;
+}
+
+#zero-carousel .owl-next {
+    right: 31% !important;
+    color: #0a70b6 !important;      
+}
+
+
+#recycle-carousel .owl-prev {
+    left: 31% !important;
+    color: #0a70b6 !important;
+}
+
+#recycle-carousel .owl-next {
+    right: 31% !important;
+    color: #0a70b6 !important;      
+}
+
 /* .card-header-fix:not(.collapse){
     border: 0px;
     border-bottom: 4px solid !important;

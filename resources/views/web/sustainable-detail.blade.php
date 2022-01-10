@@ -187,27 +187,15 @@
     </div>
 
     <div class="row">
-        <div class="col-12 mt-4">
 
-            <div class="center">
-                <div>
-                    <img src="{{asset('assets/Images/img-x13.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x12.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x14.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x15.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x12.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x14.png')}}" class="w-100">
-                </div>
+        <div class="col-12 mt-4">
+            <div class="owl-carousel" id="recycle-carousel">
+                    <div><img src="{{asset('assets/Images/img-x13.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x15.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
             </div>
         </div>
 
@@ -223,30 +211,16 @@
             <h4 class="title-zero">Zero Waste Community</h4>
         </div>
 
-        <div class="col-12 mt-3">
-
-            <div class="center">
-                <div>
-                    <img src="{{asset('assets/Images/img-x13.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x12.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x14.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x15.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x12.png')}}" class="w-100">
-                </div>
-                <div>
-                    <img src="{{asset('assets/Images/img-x14.png')}}" class="w-100">
-                </div>
+        <div class="col-12 mt-4">
+            <div class="owl-carousel" id="zero-carousel">
+                    <div><img src="{{asset('assets/Images/img-x13.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x15.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
             </div>
-
-        </div>  
+        </div>
 
         <div class="col-12 text-center mt-3">
             <button class="btn btn-read-more">Read more</button>
@@ -255,6 +229,8 @@
 
 
     </div>
+
+
 
 
 </div>
@@ -304,13 +280,22 @@
         padding-left: 2rem;
     }
     
-    /* .recycle-guide-choice::before {
-        padding-left: 3rem !important;
-    } */
+    .owl-item > div {
+        cursor: pointer;
+        margin: 6% 8%;
+        transition: margin 0.4s ease;
+    }
+    .owl-item.center > div {
+        cursor: auto;
+        margin: 0;
+    }
+    .owl-item:not(.center) {
+        opacity: 0.5;
+    }
 
-  
-
-    
+    .owl-item img {
+        border-radius: 1.25rem;
+    }
 
 </style>
 
