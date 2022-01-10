@@ -30,13 +30,13 @@
                         <div class="card-body bg-f1">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Pouch.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x15.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Stand up pouch.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Wicket bag.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                             </div>
                         </div>
@@ -77,13 +77,13 @@
                         <div class="card-body bg-f1">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x15.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Gift set.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Shopping bag.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                             </div>
                         </div>
@@ -124,13 +124,13 @@
                         <div class="card-body bg-f1">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Paper tray.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x15.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Paper pallet.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                                 <div class="col-4">
-                                    <img src="{{asset('assets/Images/img-x16.png')}}" class="w-100 sub-img position-relative rounded">
+                                    <img src="{{asset('assets/Images/Parcel box.jpg')}}" class="w-100 sub-img position-relative rounded">
                                 </div>
                             </div>
                         </div>

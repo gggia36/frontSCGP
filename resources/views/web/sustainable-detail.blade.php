@@ -135,7 +135,7 @@
             <div class="row">
 
                 <div class="col-12 text-center mt-3">
-                    <img src="{{asset('assets/Images/ci.png')}}" class="w-75">
+                    <img src="{{asset('assets/Images/Resolute.png')}}" class="w-75">
                 </div>
 
                 <div class="col-12 text-center mt-5 recycle-guide-title">
@@ -190,12 +190,12 @@
 
         <div class="col-12 mt-4">
             <div class="owl-carousel" id="recycle-carousel">
-                    <div><img src="{{asset('assets/Images/img-x13.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x15.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
             </div>
         </div>
 
@@ -213,12 +213,12 @@
 
         <div class="col-12 mt-4">
             <div class="owl-carousel" id="zero-carousel">
-                    <div><img src="{{asset('assets/Images/img-x13.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x15.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x12.png')}}"></div>
-                    <div><img src="{{asset('assets/Images/img-x14.png')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
+                    <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
             </div>
         </div>
 
