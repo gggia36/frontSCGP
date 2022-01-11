@@ -51,7 +51,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Packaging</a>
+                        <a href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Packaging</a>
                         <div class="sub-dropdown" style="display:none;">
                             <ul>
                               <li>
@@ -97,7 +97,7 @@
                   <a class="icon-width txt-nav menu-item">Debenture / Investor Relations</a>
                 </li>
                 <li class="px-2">
-                  <a class="icon-width txt-nav menu-item">Sustainable Development</a>
+                  <a href="{{url('sustainable')}}" class="icon-width txt-nav menu-item">Sustainable Development</a>
                 </li>
                 <li class="px-2">
                   <a class="icon-width txt-nav menu-item">Business Update</a>
@@ -158,7 +158,7 @@
            <ul class="sub-menu-mb">
              <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
              <li class="sub-menu-mb-item">
-               <a href="javascript:void(0)" role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
+               <a href="{{url('packaging')}}"  role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
                  <i class="bi bi-plus"></i> Packaging
                </a>
                
