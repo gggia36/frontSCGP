@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-<section class="position-relative mBottom-minus80">
+<section class="position-relative mBottom-minus80" style="z-index: -1;">
 	<div id="top-carousel" class="owl-carousel owl-theme top-carousel-owl backdropHeader">
 	    <div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
 	   	<div class="item"><img class="w-100" src="{{asset('assets/Images/Hero-banner.png')}}"/></div>
@@ -20,7 +20,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container pb-5 px-lg-4">
+	<div class="container pb-5 px-0">
 		<div class="row text-center pb-5 box-show-card" data-aos="fade-up" data-aos-duration="2000">
 			<h1 class="txt-blue pb-4" data-aos="fade-up" data-aos-duration="1000">PRODUCT & SERVICE</h1>
 			<div class="col-md-3 my-2">
@@ -238,8 +238,8 @@
 	</div>
 </section>
 
-<section class="testimonials">
-	<div class="container py-5" data-aos="fade-up" data-aos-duration="1000">
+<section class="testimonials bg-white">
+	<div class="container py-5 px-0" data-aos="fade-up" data-aos-duration="1000">
 	<div class="row pt-5 box-show-card" data-aos="fade-up" data-aos-duration="2000" >
 		<h1 class="txt-blue text-center">BUSINESS SPOTLIGHT</h1>
 	</div>
@@ -315,7 +315,7 @@
 
 
 <section id="bg-section-new">
-	<div class="container" data-aos="fade-up" data-aos-duration="1000">
+	<div class="container px-0" data-aos="fade-up" data-aos-duration="1000">
 	<div class="row pt-3 box-show-card" data-aos="fade-up" data-aos-duration="2000">
 		<h1 class="text-white text-center">NEWS</h1>
 	</div>
@@ -510,6 +510,17 @@
     background-position: -34rem;
 }
 	
+}
+
+@media (max-width: 1920px) {
+	.bg-image-solutions {
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 90%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -50rem;
+	}
 }
 
 @media (max-width: 768px) {

@@ -5,10 +5,10 @@
           <div class="col-xxl-10 col-9 text-end">
             <ul class="dis-none-style float-end align-items-center space-contact">
                 <li><a class="text-white " href="{{url('contact')}}">CONTACT US</a></li>
-                <li class="fix-mar-nav-top"><img class="w-20" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></li>
-                <li class="fix-mar-nav-top"><img class="w-20" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></li>
-                <li class="fix-mar-nav-top"><img class="w-20" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></li>
-                <li class="fix-mar-nav-top"><img class="w-20" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></li>
+                <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
               </ul>
           </div>
           <div class="col-xxl-2 col-3 text-white pe-4">
@@ -23,7 +23,7 @@
 
 <div class="sticky-top o-09" id="sticky">
   <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white  d-md-none d-lg-block d-none">
-      <div class="container">
+      <div class="container px-0">
         
         <div class="headerNavber">
           <div class="headerBrand">
@@ -99,7 +99,7 @@
                 <li class="px-2">
                   <a href="{{url('sustainable')}}" class="icon-width txt-nav menu-item">Sustainable Development</a>
                 </li>
-                <li class="px-2">
+                <li class="ps-2">
                   <a class="icon-width txt-nav menu-item">Business Update</a>
                 </li>
               </ul>

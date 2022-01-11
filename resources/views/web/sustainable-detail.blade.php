@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 
-
+<section class="bg-gray-fix">
 <div class="container pb-5">
     <div class="row">
         <div class="col-12 text-center mt-5 pt-5">
@@ -182,7 +182,7 @@
         </div>
 
         <div class="col-12 text-center mt-1">
-            <img src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}" width="150">
+            <img src="{{asset('assets/Images/logo/SCGP_Logo.png')}}" width="150">
         </div>
     </div>
 
@@ -230,11 +230,8 @@
 
     </div>
 
-
-
-
 </div>
-
+</section>
 <style>
     .title-zero {
         color: #0a70b6;

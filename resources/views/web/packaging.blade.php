@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-
+<section class="bg-gray-fix">
 
 <div class="container pb-5">
     <div class="row">
@@ -16,8 +16,9 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative">
-                            <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-1.jpg) no-repeat;    background-position: 90% !important;
+    background-size: cover;">
+                           <!--  <img  src="{{asset('assets/Images/Packaging-1.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
                                 <div class="text-center title-packaging">
                                     <h4>
@@ -63,8 +64,9 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative">
-                            <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-3.jpg) no-repeat;    background-position: 90% !important;
+    background-size: cover;">
+                           <!--  <img  src="{{asset('assets/Images/Packaging-3.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
                                 <div class="text-center title-packaging">
                                     <h4>
@@ -110,8 +112,9 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative">
-                            <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-2.jpg) no-repeat;    background-position: 90% !important;
+    background-size: cover;">
+                            <!-- <img  src="{{asset('assets/Images/Packaging-2.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
                                 <div class="text-center title-packaging">
                                     <h4>
@@ -157,7 +160,7 @@
     </div>
 
 </div>
-
+</section>
 <style>
     .bg-f1{
         background: #f1f2f2;
@@ -223,7 +226,7 @@
 
     .back6{
         opacity:0;
-        background-image: url('assets/Images/hover-thumbnail.png');
+        background-image: url('assets/Images/hover-thumbnail-PACKAGING.png');
         background-size: 100% 100%;
         position:absolute;
         overflow:hidden;
