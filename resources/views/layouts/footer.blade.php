@@ -33,5 +33,5 @@
     </div>
 </section>
 <section style="background: url('assets/Images/navtop.png');background-repeat: no-repeat;background-size: 100% 100px;">
-    <div class="py-3"></div>
+    <div class="py-md-3 py-2"></div>
 </section>

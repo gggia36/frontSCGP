@@ -3,8 +3,8 @@
 <section class="bg-gray-fix">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center mt-5 pt-5">
-                <h1 class="Page-Title">CSR Highlight</h1>
+            <div class="col-12 text-center mt-5 pt-5 box-show-card">
+                <h1 class="txt-blue text-uppercase">CSR Highlight</h1>
             </div>
         </div>
 
@@ -26,10 +26,12 @@
             </div>
 
             <div class="col-12 text-center mt-5">
-                <select class="select-date px-4 mx-2">
-                    <option>พ.ศ.2564</option>
+                <select class="select-date mx-2">
+                    <option>พ.ศ.2565</option>
+                    <option selected>พ.ศ.2564</option>
+                    <option>พ.ศ.2563</option>
                 </select>
-                <button class="btn btn-primary btn-ok px-5 mb-2 mx-2">ตกลง</button>
+                <button class="btn btn-primary btn-ok mb-2 mx-2">ตกลง</button>
             </div>
 
         </div>
@@ -236,7 +238,7 @@
         </div>
 
         <div class="row">
-            <div class="col-12 my-5  py-5">
+            <div class="col-12 my-5 py-5">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item">
@@ -278,15 +280,16 @@
 
     .btn-ok {
         border-radius: 3rem;
+        padding: 0.3rem 1rem;
+        font-size: 18px;
     }
 
     .select-date {
+        border-radius: 3rem;
         border: 2px solid #0a70b6;
         color: #0a70b6;
+        padding: 0.3rem 1rem;
         font-size: 18px;
-        border-radius: 3rem;
-        padding: 0.1rem 1rem;
-
     }
 
     .back5{

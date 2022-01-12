@@ -2,10 +2,10 @@
 @section('content')
 
 <section class="bg-gray-fix">
-<div class="container pb-5">
+<div class="container">
     <div class="row">
-        <div class="col-12 text-center mt-5 pt-5">
-            <h1 class="Page-Title">Sustainability in Action</h1>
+        <div class="col-12 text-center mt-5 pt-5 box-show-card">
+            <h1 class="txt-blue text-uppercase">Sustainability in Action</h1>
         </div>
     </div>
 
@@ -177,8 +177,8 @@
 
 
     <div class="row">
-        <div class="col-12 text-center mt-5 pt-5">
-            <h1 class="Page-Title">SD SpotLight</h1>
+        <div class="col-12 text-center mt-5 pt-5 box-show-card">
+            <h1 class="txt-blue text-uppercase">SD SpotLight</h1>
         </div>
 
         <div class="col-12 text-center mt-1">
@@ -199,7 +199,7 @@
             </div>
         </div>
 
-        <div class="col-12 text-center mt-3">
+        <div class="col-12 text-center my-5">
             <button class="btn btn-read-more">Read more</button>
         </div>
 
@@ -207,7 +207,7 @@
 
     <div class="row">
 
-        <div class="col-12 text-center mt-5">
+        <div class="col-12 text-center">
             <h4 class="title-zero">Zero Waste Community</h4>
         </div>
 
@@ -222,7 +222,7 @@
             </div>
         </div>
 
-        <div class="col-12 text-center mt-3">
+        <div class="col-12 text-center my-5">
             <button class="btn btn-read-more">Read more</button>
         </div>
 

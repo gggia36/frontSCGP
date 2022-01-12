@@ -4,8 +4,8 @@
 
 <div class="container pb-5">
     <div class="row">
-        <div class="col-12 text-center mt-5 pt-5">
-            <h1 class="Page-Title" style="font-size: 3.5rem;">Packaging</h1>
+        <div class="col-12 text-center mt-5 pt-5 box-show-card">
+            <h1 class="txt-blue text-uppercase">Packaging</h1>
         </div>
     </div>
 
@@ -16,7 +16,7 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-1.jpg) no-repeat;    background-position: 90% !important;
+                        <div class="position-relative card-img-top img-packaging-fix-h bd-bottom-ee" style="background: url(assets/Images/Packaging-1.jpg) no-repeat;    background-position: 90% !important;
     background-size: cover;">
                            <!--  <img  src="{{asset('assets/Images/Packaging-1.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
@@ -30,14 +30,29 @@
                         </div>         
                         <div class="card-body bg-f1">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Pouch.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Pouch.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Pouch</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Stand up pouch.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Stand up pouch.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Stand up Pouch</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Wicket bag.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Wicket bag.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Wicket Bag</small>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +79,7 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-3.jpg) no-repeat;    background-position: 90% !important;
+                        <div class="position-relative card-img-top img-packaging-fix-h bd-bottom-ee" style="background: url(assets/Images/Packaging-3.jpg) no-repeat;    background-position: 90% !important;
     background-size: cover;">
                            <!--  <img  src="{{asset('assets/Images/Packaging-3.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
@@ -78,14 +93,29 @@
                         </div>         
                         <div class="card-body bg-f1">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Luyxury Packaging</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Gift set.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Gift set.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Gift Set</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Shopping bag.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Shopping bag.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Shopping Bag</small>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +142,7 @@
 
                 <div class="front6">
                     <div class="card mx-auto">
-                        <div class="position-relative card-img-top img-packaging-fix-h" style="background: url(assets/Images/Packaging-2.jpg) no-repeat;    background-position: 90% !important;
+                        <div class="position-relative card-img-top img-packaging-fix-h bd-bottom-ee" style="background: url(assets/Images/Packaging-2.jpg) no-repeat;    background-position: 90% !important;
     background-size: cover;">
                             <!-- <img  src="{{asset('assets/Images/Packaging-2.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-50 start-0 w-100 h-100">
@@ -126,14 +156,29 @@
                         </div>         
                         <div class="card-body bg-f1">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Paper tray.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Paper tray.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Paper Tray</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Paper pallet.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Paper pallet.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Paper Pallet</small>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <img src="{{asset('assets/Images/Parcel box.jpg')}}" class="w-100 sub-img position-relative rounded">
+                                <div class="col-4 p-1">
+                                    <div class="card sub-card">
+                                        <img src="{{asset('assets/Images/Parcel box.jpg')}}" class="card-img-top card-img-h-100">
+                                        <div class="card-footer">
+                                            <small>Parcel Box</small>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -168,11 +213,15 @@
 
     .card {
         border-radius: 1.25rem;
+        background-color: transparent;
     }
 
     .card-img-top {
         border-top-left-radius: 1.25rem!important;
         border-top-right-radius: 1.25rem!important;
+    }
+
+    .bd-bottom-ee {
         border-bottom: 7px solid #ee5222;
     }
 
@@ -206,7 +255,7 @@
 
     .img-packaging {
         color: #FFF;
-        border-bottom: 5px solid #ee5222;
+        /* border-bottom: 5px solid #ee5222; */
         padding-bottom: 0.5rem;
     }
 
@@ -240,6 +289,30 @@
         text-transform: uppercase;
     }
 
+    .card-img-h-100 {
+        height: 100px !important;
+        object-fit: cover;
+    }
+
+    .card-footer {
+        padding: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF !important;
+        font-family: "SCG Regular";
+        border-bottom-left-radius: 1.25rem!important;
+        border-bottom-right-radius: 1.25rem!important;
+        background: #ee5222;
+    }
+
+    .card-footer small {
+        font-size: 0.7rem;
+    }
+
+    .sub-card {
+        position: relative;
+        z-index: 10;
+    }
     
 
 </style>

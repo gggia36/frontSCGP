@@ -56,17 +56,17 @@
                             <ul>
                               <li>
                                 <a href="#" class="sub-menu-item">
-                                  <i class="bi bi-plus"></i> Primary Packaging
+                                  <i class="bi bi-dash"></i> Primary Packaging
                                 </a>
                               </li>
                               <li>
                                 <a href="#" class="sub-menu-item">
-                                  <i class="bi bi-plus"></i> Secondary Packaging
+                                  <i class="bi bi-dash"></i> Secondary Packaging
                                 </a> 
                               </li>
                               <li>
                                   <a href="#" class="sub-menu-item">
-                                    <i class="bi bi-plus"></i> Tertiary Packaging
+                                    <i class="bi bi-dash"></i> Tertiary Packaging
                                   </a>    
                               </li>
                             </ul>
@@ -164,18 +164,18 @@
                
                <div class="collapse" id="collapsePackaging">
                    <ul class="sub-menu-mb">
-                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Primary Packaging</a> </li>
-                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Secondary Packaging</a></li>
-                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-plus"></i> Tertiary Packaging</a></li>
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-dash"></i> Primary Packaging</a> </li>
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-dash"></i> Secondary Packaging</a></li>
+                     <li class="sub-menu-mb-item2"> <a href="javascript:void(0)"><i class="bi bi-dash"></i> Tertiary Packaging</a></li>
                    </ul>
                </div>
              
              </li>
-             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Specialty Packaging</li>
-             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Food Service Products</li>
-             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Paper and Pulp</li>
-             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Forestry</li>
-             <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Services</li>
+             <li class="sub-menu-mb-item"><a href="#"><i class="bi bi-plus"></i> Specialty Packaging</a></li>
+             <li class="sub-menu-mb-item"><a href="#"><i class="bi bi-plus"></i> Food Service Products</a></li>
+             <li class="sub-menu-mb-item"><a href="#"><i class="bi bi-plus"></i> Paper and Pulp</a></li>
+             <li class="sub-menu-mb-item"><a href="#"><i class="bi bi-plus"></i> Forestry</a></li>
+             <li class="sub-menu-mb-item"><a href="#"><i class="bi bi-plus"></i> Services</a></li>
            </ul>   
          </div>
          
@@ -281,7 +281,7 @@
 }
 
 .navMenuMb-item a:focus {
-  color: #1c1666;
+  color: #1c1666; 
 }
 
 
@@ -307,8 +307,10 @@
   cursor: pointer;
 }
 
-.sub-menu-mb-item:focus{
+.sub-menu-mb-item a:focus{
   color: #1c1666;
+  border-bottom: 2px solid !important;
+  border-image: radial-gradient(rgb(236 45 39), rgb(248 172 28)) 1 !important;
 }
 
 .sub-menu-mb-item2:focus {
