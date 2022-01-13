@@ -110,6 +110,16 @@
     	}
 	})
 
+
+	$('#packaging-type').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		dots: false,
+		mouseDrag: false,
+		items: 1,
+	})
+
 </script>
 
 </body>
