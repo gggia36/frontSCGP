@@ -11,7 +11,7 @@
 
     <div class="row">
 
-        <div class="col-xl-4 col-md-6 col-12 px-1 mt-4 mt-4">
+        <div class="col-xl-4 col-md-6 col-12 px-1 mt-4 mt-4 mb-5 pb-5">
             <div class="wrap6">
 
                 <div class="front6">

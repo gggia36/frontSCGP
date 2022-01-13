@@ -364,6 +364,10 @@ a:focus {
     text-decoration: none;
     font-size: 14px;
 }
+.menuNav li label {
+    text-decoration: none;
+    font-size: 14px;
+}
 
 .menuNav li .menu-item:focus, .menuNav li .menu-item:hover {
     color: #1d1666;
