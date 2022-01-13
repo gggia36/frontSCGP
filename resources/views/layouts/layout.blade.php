@@ -38,7 +38,6 @@
 	<script src="{{asset('assets/js/jquery-1.12.4.js')}}"></script>
 	<script src="{{asset('OwlCarousel/dist/owl.carousel.min.js') }}"></script>
 	<script src="{{asset('assets/js/home.js')}}"></script>
-
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
