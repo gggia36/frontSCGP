@@ -121,6 +121,23 @@
 		items: 1,
 	})
 
+	$('.Count').each(function () {
+    	$(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    	}, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+        	var x = numberWithCommas(Math.ceil(now))
+            $(this).text(x);
+        }
+    	});
+	});
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 </script>
 
 </body>
