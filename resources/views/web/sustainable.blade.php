@@ -280,7 +280,7 @@
 
     .btn-ok {
         border-radius: 3rem;
-        padding: 0.3rem 1rem;
+        padding: 0.3rem 2rem;
         font-size: 18px;
     }
 

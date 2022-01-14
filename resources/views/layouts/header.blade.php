@@ -40,7 +40,7 @@
                                 <ul class="sub-menu">
                                     <li>
                                         <label href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Who are we</label>
-                                        <div class="sub-dropdown" style="display: none;">
+                                        <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="sub-menu-item"> <i class="bi bi-dash"></i> Our Vision </a>
@@ -67,8 +67,8 @@
                                         <a href="#" class="sub-menu-item"><i class="bi bi-plus"></i> Organization Chart</a>
                                     </li>
                                     <li>
-                                        <lable  class="sub-menu-item"><i class="bi bi-plus"></i> Management Structure</lable>
-                                         <div class="sub-dropdown" style="display: none;">
+                                        <label href="#"  class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Management Structure</label>
+                                         <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="sub-menu-item"> <i class="bi bi-dash"></i> Board of Directors โครงสร้างเดิม Update เนื้อหาใหม่</a>
@@ -122,7 +122,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="px-2">
+                        <li class="px-2 dropdown">
                             <a class="icon-width txt-nav dropdown-toggle menu-item" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions
                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -148,7 +148,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="px-2">
+                        <li class="px-2 dropdown">
                             <a class="icon-width txt-nav dropdown-toggle menu-item" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Debenture / Investor Relations
                                 <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -158,7 +158,7 @@
                                 <ul class="sub-menu">
                                     <li>
                                         <label href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Debenture</label>
-                                        <div class="sub-dropdown" style="display: none;">
+                                        <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="sub-menu-item"> <i class="bi bi-dash"></i> Debenture Homepge </a>
@@ -180,7 +180,7 @@
                                     </li>
                                     <li>
                                         <label href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Investor Relations</label>
-                                        <div class="sub-dropdown" style="display: none;">
+                                        <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="sub-menu-item"> <i class="bi bi-dash"></i> Investor Homepge </a>
@@ -203,7 +203,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="px-2">
+                        <li class="px-2 dropdown">
                            <a class="icon-width txt-nav dropdown-toggle menu-item" href="{{url('sustainable')}}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sustainable Development
                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -241,7 +241,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="ps-2">
+                        <li class="ps-2 dropdown">
                             <a class="icon-width txt-nav menu-item"></a>
 
                             <a class="icon-width txt-nav dropdown-toggle menu-item" href="{{url('sustainable')}}" id="dropdown0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Business Update

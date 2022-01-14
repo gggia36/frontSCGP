@@ -69,10 +69,17 @@
 	  });
 	});
 
-	 $(document).ready(function(){
-	  $(".click-menu").click(function(){
-	    $(".sub-dropdown").toggle();
-	  });
+	$(document).ready(function(){
+
+		const submenu = document.querySelectorAll(".click-menu");
+		 for (let i = 0; i < submenu.length; i++) {			
+			submenu[i].addEventListener("click", function() {
+				var dropdown = document.querySelectorAll(".sub-dropdown");
+				dropdown[i].classList.toggle("d-block");
+				dropdown[i].classList.toggle("d-none");
+     		});
+ 		}
+
 	});
 
 	$('#zero-carousel').owlCarousel({
