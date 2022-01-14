@@ -45,7 +45,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -69,7 +69,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -93,7 +93,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -117,7 +117,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -141,7 +141,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -165,7 +165,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -189,7 +189,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
@@ -213,7 +213,7 @@
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
-                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top">
+                                    <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
                                         <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">

@@ -495,7 +495,10 @@ a:focus {
     border-radius: 3rem;
     display: block;
 }
-
+.h-img-fix{
+    height: 280px;
+    object-fit: cover;
+}
 .txt-blue2{
     color: #0061ad;
     font-family: 'SCG Bold';

@@ -291,7 +291,7 @@
                                             <div class="card sub-card">
                                                 <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="card-img-top card-img-h-100">
                                                 <div class="card-footer">
-                                                    <small>Luyxury Packaging</small>
+                                                    <small>Luxury <span class="d-sm-none d-block">Packaging</span></small>
                                                 </div>
                                             </div>
                                         </div>
@@ -417,6 +417,7 @@
 
     .bd-bottom-ee {
         border-bottom: 7px solid #ee5222;
+        box-shadow: inset 90px -274px 20px -100px #0000005c;
     }
 
     .card-body {

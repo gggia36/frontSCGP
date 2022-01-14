@@ -1,4 +1,4 @@
-<section style="background: url('assets/Images/navtop.png'); background-repeat: no-repeat; background-size: 100% 100px;">
+<section style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;">
     <div class="container px-xxl-5 py-2">
         <div class="row align-items-center" id="MyContact">
             <div class="col-xxl-10 col-9 text-end">

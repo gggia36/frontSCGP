@@ -188,7 +188,7 @@
 
     <div class="row">
 
-        <div class="col-12 mt-4">
+        <div class="col-12 mt-4 px-0">
             <div class="owl-carousel" id="recycle-carousel">
                     <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
                     <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
@@ -211,7 +211,7 @@
             <h4 class="title-zero">Zero Waste Community</h4>
         </div>
 
-        <div class="col-12 mt-4">
+        <div class="col-12 mt-4 px-0">
             <div class="owl-carousel" id="zero-carousel">
                     <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>
                     <div><img src="{{asset('assets/Images/SD Spotlight.jpg')}}"></div>

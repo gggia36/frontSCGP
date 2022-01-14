@@ -32,6 +32,6 @@
       </div>
     </div>
 </section>
-<section style="background: url('assets/Images/navtop.png');background-repeat: no-repeat;background-size: 100% 100px;">
+<section style="background: url('assets/Images/navtop2.svg');background-repeat: no-repeat;background-size: 100% auto;">
     <div class="py-md-3 py-2"></div>
 </section>
