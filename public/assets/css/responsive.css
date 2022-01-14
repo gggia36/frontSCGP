@@ -1,3 +1,14 @@
+@media (max-width: 1990px) and (min-width: 1900px){
+   .px-xxl-5 {
+        padding-right: 0rem!important;
+        padding-left: 0rem!important;
+    }
+    .space-contact {
+        padding-right: 5rem;
+    }
+}
+
+
 @media (max-width: 1900px) and (min-width: 1800px){
     .space-contact {
         padding-right: 10rem;
@@ -17,13 +28,23 @@
 
 @media (max-width: 1399px) and (min-width: 1201px){
     .space-contact {
-        padding-right: 1.5rem;
+        padding-right: 3.3rem;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 1099px){
+    .space-contact {
+        padding-right: 3rem;
+    }
+    .menuNav li a {
+        text-decoration: none;
+        font-size: 10px;
     }
 }
 
 @media (max-width: 1099px) and (min-width: 991px){
     .space-contact {
-        padding-right: 1.5rem;
+        padding-right: 4rem;
     }
 }
 
@@ -211,6 +232,7 @@
 
 
 @media (min-width: 992px){
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0rem;
         padding-left: 0.5rem;
@@ -230,6 +252,11 @@
     #MyContact {
         display: none;
     }
+    nav.primary ul li.logo {
+        flex: 2;
+        text-align: left;
+        padding-right: 8%;
+    }
 
     .btn-carousel {
         position: absolute;
@@ -246,12 +273,34 @@
         display: block;
         font-size: 0.9rem;
     }
+    .img-thumbnail-product {
+        height: 160px;
+        object-fit: cover;
+    }
+    .wrap {
+        height: 161px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .wrap2 {
+        height: 175px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .img-thumbnail-product-2 {
+        height: 175px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 768px) {
     nav.primary ul li.logo {
         flex: auto !important;
         text-align: left;
+        padding-right: 0%;
+
     }
     #bg-consumer {
         background-color: #e9ecef;
@@ -518,7 +567,34 @@
     }
 
 }
+
+@media (max-width: 765px) {
+    .img-thumbnail-product {
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .img-thumbnail-product-2 {
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .wrap {
+        height: 380px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .wrap2 {
+        height: 380px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+}
 @media (max-width: 500px) {
+    
     .fix-fonttext-footer{
         font-size: 14px;
     }

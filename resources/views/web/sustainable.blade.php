@@ -8,11 +8,11 @@
             </div>
         </div>
 
-        <div class="row mt-4 px-3">
+        <div class="row mt-4 px-0">
 
             <div class="col-12 bg-white ">
                 <div class="row">
-                    <div class="col-md-7 col-12 px-0">
+                    <div class="col-md-7 col-12 px-3">
                         <img src="assets/Images/SD Spotlight.jpg" class="w-100 h-100" >
                     </div>
                     <div class="col-md-5 col-12 ">
@@ -37,7 +37,7 @@
         </div>
 
         <div class="row">
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-4 px-0">
                 <div class="row">
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
@@ -237,10 +237,10 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 my-5 py-5">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center">
+        <div class="row ">
+            <div class="col-12 my-3 py-4 d-flex align-items-center justify-content-center">
+                <nav aria-label="Page navigation example ">
+                    <ul class="pagination justify-content-center mb-0">
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
