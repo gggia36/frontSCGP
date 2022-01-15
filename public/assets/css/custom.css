@@ -1057,6 +1057,18 @@ a:focus {
   display: none;
 }
 
+.fade-text6 {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap6:hover .back6 div > .fade-text6 {
+    opacity: 1;
+    transform:translateY(0px);
+}
+
 .wrap6 .back5:hover h1:before,
 .wrap6 .back5:hover p {
     top: 0;

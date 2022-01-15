@@ -61,7 +61,7 @@
 
                 <div class="back6">
                     <div class="position-absolute top-50 start-0 w-100 h-100">
-                        <div class="text-center img-packaging">
+                        <div class="text-center img-packaging fade-text6">
                             <h5>
                                 <span>Primary Packaging</span>                             
                             </h5>
@@ -124,7 +124,7 @@
 
                 <div class="back6">
                     <div class="position-absolute top-50 start-0 w-100 h-100">
-                        <div class="text-center img-packaging">
+                        <div class="text-center img-packaging fade-text6">
                             <h5>
                                 <span>Secondary Packaging</span>                             
                             </h5>
@@ -187,7 +187,7 @@
 
                 <div class="back6">
                     <div class="position-absolute top-50 start-0 w-100 h-100">
-                        <div class="text-center img-packaging">
+                        <div class="text-center img-packaging fade-text6">
                             <h5>
                                 <span>Tertiary Packaging</span>                             
                             </h5>
