@@ -54,8 +54,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                             <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -102,8 +102,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -126,8 +126,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -150,8 +150,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -174,8 +174,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -198,8 +198,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
@@ -222,8 +222,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="back5 ">
-                                <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                            <div class="back5">
+                                <h6 class="fade-text5">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                 <p>
                                     SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                 </p>
