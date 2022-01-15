@@ -143,6 +143,9 @@
                                         <a href="#" class="sub-menu-item"> Smart and Functional Solutions</a>
                                     </li>
                                     <li>
+                                        <a href="#" class="sub-menu-item"> E-commerce Solutions</a>
+                                    </li>
+                                    <li>
                                         <a href="#" class="sub-menu-item"> Marketing Event Solutions</a>
                                     </li>
                                 </ul>
@@ -157,7 +160,7 @@
                            <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
                                 <ul class="sub-menu">
                                     <li>
-                                        <label href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Debenture</label>
+                                        <label href="{{url('/')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Debenture</label>
                                         <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
@@ -179,7 +182,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <label href="{{url('packaging')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Investor Relations</label>
+                                        <label href="{{url('/')}}" class="click-menu sub-menu-item"><i class="bi bi-plus"></i> Investor Relations</label>
                                         <div class="sub-dropdown d-none">
                                             <ul>
                                                 <li>
@@ -305,58 +308,184 @@
 
                 <ul class="navMenuMb">
                     <li class="navMenuMb-item">
-                        <a href="#">About us</a>
-                    </li>
-                    <li class="navMenuMb-item">
                         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
-                            <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                            <a href="javascript:void(0)">About us</a> <i class="fas fa-chevron-down float-end mt-1"></i>
                         </div>
 
                         <div class="collapse" id="collapseProducts">
                             <ul class="sub-menu-mb">
-                                <li class="sub-menu-mb-item"><i class="bi bi-plus"></i> Products</li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('packaging')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapsePackaging" aria-expanded="false" aria-controls="collapsePackaging">
-                                        <i class="bi bi-plus"></i> Packaging
+                                    <a href="{{url('packaging')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
+                                        <i class="bi bi-plus"></i> Who are we
                                     </a>
 
-                                    <div class="collapse" id="collapsePackaging">
+                                    <div class="collapse" id="collapseWhoarewe1">
                                         <ul class="sub-menu-mb">
                                             <li class="sub-menu-mb-item2">
-                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Primary Packaging</a>
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  Our Vision</a>
                                             </li>
                                             <li class="sub-menu-mb-item2">
-                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Secondary Packaging</a>
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Our Strategy</a>
                                             </li>
                                             <li class="sub-menu-mb-item2">
-                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Tertiary Packaging</a>
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  Our Opportunity</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="#"><i class="bi bi-plus"></i> Specialty Packaging</a>
+                                    <a href="#"><i class="bi bi-plus"></i> Our Business</a>
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="#"><i class="bi bi-plus"></i> Food Service Products</a>
+                                    <a href="#"><i class="bi bi-plus"></i> Milestone</a>
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="#"><i class="bi bi-plus"></i> Paper and Pulp</a>
+                                    <a href="#"><i class="bi bi-plus"></i> Messages from the board of director</a>
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="#"><i class="bi bi-plus"></i> Forestry</a>
+                                    <a href="#"><i class="bi bi-plus"></i> Organization Chart</a>
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="#"><i class="bi bi-plus"></i> Services</a>
+                                    <a href="{{url('packaging')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                        <i class="bi bi-plus"></i> Management Structure
+                                    </a>
+
+                                    <div class="collapse" id="collapseWhoarewe2">
+                                        <ul class="sub-menu-mb">
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  Board of Directors โครงสร้างเดิม Update เนื้อหาใหม่</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Management Team</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  Sub Committees</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="navMenuMb-item">
-                        <a href="#">Solutions</a>
+                        <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts1" aria-expanded="false" aria-controls="collapseProducts1">
+                            <a href="javascript:void(0)">Products & Services</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                        </div>
+
+                        <div class="collapse" id="collapseProducts1">
+                            <ul class="sub-menu-mb">
+                                <li class="sub-menu-mb-item"><a href="{{url('packaging')}}">Packaging</a> </li>
+                               
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Innovative Packaging</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Foodservice Product</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Paper & Pulp</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Forestry Business</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Design Service</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Marketing & Event</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> SCGP reXycle</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="navMenuMb-item">
-                        <a href="#">Debenture / Investor Relations</a>
+                         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseProducts2" aria-expanded="false" aria-controls="collapseProducts2">
+                            <a href="javascript:void(0)">Solutions</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                        </div>
+                        <div class="collapse" id="collapseProducts2">
+                            <ul class="sub-menu-mb">
+                                <li class="sub-menu-mb-item"><a href="{{url('/')}}">Circular Economy Solutions</a> </li>
+                               
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Small Lot Solutions</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Convenience Solutions</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Smart and Functional Solutions</a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> E-commerce Solutions </a>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="#"> Marketing Event Solutions</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navMenuMb-item">
+                        <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseDebenture" aria-expanded="false" aria-controls="collapseDebenture">
+                            <a href="javascript:void(0)">Debenture / Investor Relations</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                        </div>
+
+                        <div class="collapse" id="collapseDebenture">
+                            <ul class="sub-menu-mb">
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
+                                        <i class="bi bi-plus"></i> Debenture
+                                    </a>
+
+                                    <div class="collapse" id="collapseWhoarewe1">
+                                        <ul class="sub-menu-mb">
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>   Debenture Homepge</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Form Debenture && SCG Debenture Club</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  SCG Debenture Club </a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>  FAQ </a>
+                                            </li>
+                                             <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i>   Debenture Contact </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                        <i class="bi bi-plus"></i> Investor Relations
+                                    </a>
+
+                                    <div class="collapse" id="collapseWhoarewe2">
+                                        <ul class="sub-menu-mb">
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Investor Homepge </a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Finacial Information</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Stock Information</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Shareholder Information</a>
+                                            </li>
+                                            <li class="sub-menu-mb-item2">
+                                                <a href="javascript:void(0)"><i class="bi bi-dash"></i> Presentation and Webcast</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="navMenuMb-item">
                         <a href="#">Sustainable Development</a>
