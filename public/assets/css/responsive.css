@@ -16,19 +16,19 @@
 }
 @media (max-width: 1800px) and (min-width: 1500px){
     .space-contact {
-        padding-right: 8rem;
+        padding-right: 10rem;
     }
 }
 
 @media (max-width: 1499px) and (min-width: 1399px){
     .space-contact {
-        padding-right: 10rem;
+        padding-right: 12rem;
     }
 }
 
 @media (max-width: 1399px) and (min-width: 1201px){
     .space-contact {
-        padding-right: 3.3rem;
+        padding-right: 5.3rem;
     }
 }
 

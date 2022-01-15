@@ -1061,7 +1061,7 @@ a:focus {
     opacity: 0;
     display: block;
     transform:translateY(200px);
-    transition: 2s;
+    transition: 1s;
 }
 
 .wrap6:hover .back6 div > .fade-text6 {

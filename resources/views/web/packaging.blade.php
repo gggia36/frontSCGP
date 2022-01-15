@@ -291,7 +291,7 @@
                                             <div class="card sub-card">
                                                 <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="card-img-top card-img-h-100">
                                                 <div class="card-footer">
-                                                    <small>Luxury <span class="d-sm-none d-block">Packaging</span></small>
+                                                    <small>Luxury <span class="d-none d-md-block">Packaging</span></small>
                                                 </div>
                                             </div>
                                         </div>

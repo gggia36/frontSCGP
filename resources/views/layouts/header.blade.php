@@ -1,5 +1,5 @@
 <section style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;">
-    <div class="container px-xxl-5 py-2">
+    <div class="container px-0">
         <div class="row align-items-center" id="MyContact">
             <div class="col-xxl-10 col-9 text-end">
                 <ul class="dis-none-style float-end align-items-center space-contact">
@@ -10,7 +10,7 @@
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
                 </ul>
             </div>
-            <div class="col-xxl-2 col-3 text-white pe-4">
+            <div class="col-xxl-2 col-3 text-white pe-2">
                 <div class="d-flex justify-content-end">ENG <span class="px-2">|</span> ไทย</div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="headerMenu">
-                    <ul class="menuNav">
+                    <ul class="menuNav mb-3 py-1">
                         <li class="px-2 dropdown">
                             <a class="icon-width txt-nav dropdown-toggle menu-item" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About us

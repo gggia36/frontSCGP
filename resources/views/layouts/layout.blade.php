@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="{{asset('bootstrap5/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" href="{{asset('OwlCarousel/dist/assets/owl.carousel.min.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/navber.css')}}">
-	<link rel="stylesheet" href="{{asset('assets/css/custom.css?v=20')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/custom.css?v=21')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
 
 	<!-- aos -->
