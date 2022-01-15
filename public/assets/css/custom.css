@@ -877,6 +877,18 @@ a:focus {
     border-radius: 0px;
 }
 
+.fade-text {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap:hover .back > .fade-text {
+    opacity: 1;
+    transform:translateY(0px);
+}
+
 .wrap .back:hover h1:before,
 .wrap .back:hover p {
     top: 0;
@@ -905,6 +917,18 @@ a:focus {
     width: 100%;
     height: 100%;
     border-radius: 0px;
+}
+
+.fade-text2 {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap2:hover .back2 > .fade-text2 {
+    opacity: 1;
+    transform:translateY(0px);
 }
 
 .wrap2 .back2:hover h1:before,
@@ -937,6 +961,18 @@ a:focus {
     border-radius: 0px;
 }
 
+.fade-text3 {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap3:hover .back3 > .fade-text3 {
+    opacity: 1;
+    transform:translateY(0px);
+}
+
 .wrap3 .back2:hover h1:before,
 .wrap3 .back2:hover p {
     top: 0;
@@ -965,6 +1001,18 @@ a:focus {
     width: 100%;
     height: 100%;
     border-radius: 0px;
+}
+
+.fade-text4 {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap4:hover .back4 > .fade-text4 {
+    opacity: 1;
+    transform:translateY(0px);
 }
 
 .wrap4 .back4:hover h1:before,
@@ -998,6 +1046,18 @@ a:focus {
     border-radius: 0px;
 }
 
+.fade-text5 {
+    opacity: 0;
+    display: block;
+    transform:translateY(200px);
+    transition: 2s;
+}
+
+.wrap5:hover .back5 > .fade-text5 {
+    opacity: 1;
+    transform:translateY(0px);
+}
+
 .wrap5 .back5:hover h1:before,
 .wrap5 .back5:hover p {
     top: 0;
@@ -1007,7 +1067,7 @@ a:focus {
     transform: scale(1);
 }
 
-.back5 h6 {
+.back5  h6 {
     color: #fff;
     top: 65%;
     text-shadow: 2px 1px 7px #000000ad;

@@ -31,7 +31,7 @@
 					<p class="entypo-mobile text-uppercase">PACKAGING</p>		   
 				  </div>
 				  <div class="back">
-				     <h1 class="entypo-mobile text-uppercase">PACKAGING</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text">PACKAGING</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -47,7 +47,7 @@
 				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
 				  </div>
 				  <div class="back">
-				     <h1 class="entypo-mobile text-uppercase">Innovative <br>Product</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text">Innovative <br>Product</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -63,7 +63,7 @@
 				   	 <p class="entypo-mobile text-uppercase">Foodservice Product</p>
 				  </div>
 				  <div class="back">
-				     <h1 class="entypo-mobile text-uppercase">Foodservice Product</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text">Foodservice Product</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -79,7 +79,7 @@
 				   	 <p class="entypo-mobile text-uppercase a1">Paper and pulp</p>
 				  </div>
 				  <div class="back">
-				     <h1 class="entypo-mobile text-uppercase">Paper and pulp</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text">Paper and pulp</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -95,7 +95,7 @@
 				   	 <p class="entypo-mobile text-uppercase">Design service</p>
 				  </div>
 				  <div class="back2">
-				     <h1 class="entypo-mobile text-uppercase">Design service</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text2">Design service</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -111,7 +111,7 @@
 				   	 <p class="entypo-mobile text-uppercase">Marketing and Event</p>
 				  </div>
 				  <div class="back2">
-				     <h1 class="entypo-mobile text-uppercase">Marketing and Event</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text2">Marketing and Event</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -127,7 +127,7 @@
 				   	 <p class="entypo-mobile text-uppercase">SCGP Recycle</p>
 				  </div>
 				  <div class="back2">
-				     <h1 class="entypo-mobile text-uppercase">SCGP Recycle</h1>
+				     <h1 class="entypo-mobile text-uppercase fade-text2">SCGP Recycle</h1>
 				     <hr>
 				    <p>Fiber-based packaging and
 					perfermance and
@@ -254,7 +254,7 @@
 						</div>
 					</div>
 					<div class="back3">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
@@ -265,7 +265,7 @@
 						</div>
 					</div>
 					<div class="back3">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
@@ -276,7 +276,7 @@
 						</div>
 					</div>
 					<div class="back3">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
@@ -287,7 +287,7 @@
 						</div>
 					</div>
 					<div class="back3">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
@@ -298,7 +298,7 @@
 						</div>
 					</div>
 					<div class="back3">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 			</div>
@@ -330,7 +330,7 @@
 						</div>
 					</div>
 					<div class="back4">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text4">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product2 wrap4">
@@ -343,7 +343,7 @@
 						</div>
 					</div>
 					<div class="back4">
-							<p>SCGP makes inroads into
+							<p class="fade-text4">SCGP makes inroads into
 							medical supplies and labware
 							industry Signing of a share...</p>
 					</div>
@@ -359,7 +359,7 @@
 						</div>
 					</div>
 					<div class="back4">
-							<p>SCGP tops up its success
+							<p class="fade-text4">SCGP tops up its success
 							in Indonesia, expands
 							investment...</p>
 					</div>
@@ -375,7 +375,7 @@
 						</div>
 					</div>
 					<div class="back4">
-							<p>SCGP tops up its success in
+							<p class="fade-text4">SCGP tops up its success in
 							Indonesia, expands investment
 							portfolio in downstream...</p>
 					</div>
@@ -388,7 +388,7 @@
 						</div>
 					</div>
 					<div class="back4">
-							<p>Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text4">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 			</div>
