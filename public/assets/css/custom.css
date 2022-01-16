@@ -877,14 +877,19 @@ a:focus {
     border-radius: 0px;
 }
 
+.box-back {
+    position: absolute;
+    top: 53%;
+}
+
 .fade-text {
     opacity: 0;
     display: block;
     transform:translateY(200px);
-    transition: 2s;
+    transition: all 0.3s linear 0.2s; 
 }
 
-.wrap:hover .back > .fade-text {
+.wrap:hover .back .box-back > .fade-text {
     opacity: 1;
     transform:translateY(0px);
 }
@@ -919,14 +924,21 @@ a:focus {
     border-radius: 0px;
 }
 
+.box-back-2 {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+}
+
 .fade-text2 {
     opacity: 0;
     display: block;
     transform:translateY(200px);
-    transition: 2s;
+    transition: all 0.3s linear 0.2s;
 }
 
-.wrap2:hover .back2 > .fade-text2 {
+.wrap2:hover .back2 .box-back-2 > .fade-text2 {
     opacity: 1;
     transform:translateY(0px);
 }
