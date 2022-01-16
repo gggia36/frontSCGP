@@ -233,7 +233,7 @@
                                         <a href="#" class="sub-menu-item"> Policy and SD Report</a>
                                     </li>
                                      <li>
-                                        <a href="#" class="sub-menu-item"> CSR Highlight </a>
+                                        <a href="{{url('sustainable')}}" class="sub-menu-item"> CSR Highlight </a>
                                     </li>
                                     <li>
                                         <a href="#" class="sub-menu-item"> Sustainability in Action</a>
@@ -245,8 +245,6 @@
                             </div>
                         </li>
                         <li class="ps-2 dropdown">
-                            <a class="icon-width txt-nav menu-item"></a>
-
                             <a class="icon-width txt-nav dropdown-toggle menu-item" href="{{url('sustainable')}}" id="dropdown0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Business Update
                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="6 9 12 15 18 9"></polyline>
@@ -488,10 +486,94 @@
                         </div>
                     </li>
                     <li class="navMenuMb-item">
-                        <a href="#">Sustainable Development</a>
+                         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseDevelopment" aria-expanded="false" aria-controls="collapseDevelopment">
+                            <a href="javascript:void(0)">Sustainable Development</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                        </div>
+                         <div class="collapse" id="collapseDevelopment">
+                            <ul class="sub-menu-mb">
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
+                                      SCGP's SD Homepage
+                                    </a>
+
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                      Approaches and SDGs
+                                    </a>
+                                   
+                                </li>
+                                 <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                      Environmental
+                                    </a>
+                                   
+                                </li>
+                                 <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                     Social
+                                    </a>
+                                   
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                     Governance
+                                    </a>
+                                   
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    Policy and SD Report
+                                    </a>
+                                   
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('sustainable')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    CSR Highlight 
+                                    </a>
+                                   
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                     Sustainability in Action
+                                    </a>
+                                   
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    Awards & Recogniion
+                                    </a>
+                                   
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="navMenuMb-item">
-                        <a href="#">Business Update</a>
+                         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseDevelopment" aria-expanded="false" aria-controls="collapseDevelopment">
+                            <a href="javascript:void(0)">Business Update</a> <i class="fas fa-chevron-down float-end mt-1"></i>
+                        </div>
+                         <div class="collapse" id="collapseDevelopment">
+                            <ul class="sub-menu-mb">
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
+                                     News
+                                    </a>
+
+                                </li>
+                                <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                      Business Spotlight
+                                    </a>
+                                   
+                                </li>
+                                 <li class="sub-menu-mb-item">
+                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                     a Lot Newsletter
+                                    </a>
+                                   
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
