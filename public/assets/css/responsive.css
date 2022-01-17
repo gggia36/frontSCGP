@@ -293,6 +293,7 @@
         height: 175px;
         object-fit: cover;
     }
+    
 }
 
 @media (max-width: 768px) {
