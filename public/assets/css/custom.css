@@ -1268,8 +1268,10 @@ a.set-a:focus{
     border: 0px;
     border-bottom: 4px solid !important;
     border-image: linear-gradient(to right, rgb(237 56 35), rgb(247 153 26));
+    -webkit-border-image: linear-gradient(to right, rgb(237 56 35), rgb(247 153 26));
     border-image-slice: 1;
     color: #1c1666 ;
+    -webkit-text-fill-color: #1c1666 ;
     background-color: #fff0;
     margin: auto;
     text-decoration: none;
