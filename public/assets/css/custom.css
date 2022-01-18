@@ -64,6 +64,13 @@ a:focus {
     cursor: pointer;
     text-decoration: none;
 }
+.txt-date-slide{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: #fff;
+    z-index: 10000;
+}
 .bg-gray-fix{
   background-color: #f5f4f4;
   margin: 0;
@@ -1016,7 +1023,7 @@ a:focus {
     cursor: pointer;
 }
 .wrap4:hover .front4 p {
-    top: 0;
+    opacity: 0;
 }
 
 .back4 {

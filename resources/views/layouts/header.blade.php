@@ -241,7 +241,7 @@
                                         <a href="{{url('sustainable')}}" class="sub-menu-item"> CSR Highlight </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="sub-menu-item"> Sustainability in Action</a>
+                                        <a href="{{url('sustainable-detail')}}" class="sub-menu-item"> Sustainability in Action</a>
                                     </li>
                                      <li>
                                         <a href="#" class="sub-menu-item"> Awards & Recogniion</a>
@@ -284,7 +284,9 @@
                 <div class="header__container">
                     <ul>
                         <li class="logo text-end">
-                            <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}" />
+                            <a href="{{url('/')}}">
+                                <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}" />
+                            </a>
                         </li>
                         <li class="mobile-nav">
                             <button id="nav-toggle" onclick="openNav()">
@@ -539,7 +541,7 @@
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" >
+                                    <a href="{{url('sustainable-detail')}}" role="button" >
                                      Sustainability in Action
                                     </a>
                                    

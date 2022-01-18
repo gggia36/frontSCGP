@@ -352,6 +352,9 @@
         <div class="owl-slider">
 			<div id="carousel-new" class="owl-carousel owl-carousel-new">
 				<div class="item box-card-product2 wrap4">
+					<div class="txt-date-slide">
+						<p>5 Dec 2021</p>
+					</div>
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
@@ -363,6 +366,9 @@
 					</div>
 				</div>
 				<div class="item box-card-product2 wrap4">
+					<div class="txt-date-slide">
+						<p>5 Dec 2021</p>
+					</div>
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x14.png')}}">
 						<div class="h-box pt-3 ps-2">
@@ -379,6 +385,9 @@
 				</div>
 
 				<div class="item box-card-product2 wrap4">
+					<div class="txt-date-slide">
+						<p>5 Dec 2021</p>
+					</div>
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x15.png')}}">
 						<div class="h-box pt-3 ps-2">
@@ -393,8 +402,10 @@
 							investment...</p>
 					</div>
 				</div>
-
 				<div class="item box-card-product2 wrap4">
+					<div class="txt-date-slide">
+						<p>5 Dec 2021</p>
+					</div>
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x16.png')}}">
 						<div class="h-box pt-3 ps-2">
@@ -410,6 +421,9 @@
 					</div>
 				</div>
 				<div class="item box-card-product2 wrap4">
+					<div class="txt-date-slide">
+						<p>5 Dec 2021</p>
+					</div>
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x13.png')}}">
 						<div class="h-box pt-3 ps-2">
@@ -468,12 +482,12 @@
     background-size: 90%;
     background-position-x: left;
     background-attachment: fixed !important;
-    background-position: -40rem;
+    background-position: -40rem !important;
 }
 
 .back4{
   opacity:0;
-  background-image: url('assets/Images/hover-thumbnail-slide.png');
+  background-image: url('assets/Images/hover-thumbnail-slide1.png');
   background-size: 100% 100%;
   position:absolute;
   overflow:hidden;
@@ -483,7 +497,7 @@
 }
 .back3{
   opacity:0;
-  background-image: url('assets/Images/hover-thumbnail-slide.png');
+  background-image: url('assets/Images/hover-thumbnail-slide1.png');
   background-size: 100% 100%;
   position:absolute;
   overflow:hidden;
@@ -518,7 +532,17 @@
     background-size: cover; 
     background-position-x: right;
 } */
+@media (max-width: 1500px) {
+		.bg-image-solutions {
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -40rem !important;
+	}
 
+}
 @media (max-width: 1199px) {
 	.back2{
 	  opacity:0;
@@ -531,13 +555,14 @@
 	  transition:all .4s linear;
 	}
 	.bg-image-solutions {
-    background-image: url(assets/Images/img-x9.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: left;
-    background-attachment: fixed !important;
-    background-position: -34rem;
-}
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -35rem !important;
+	}
+	
 	
 }
 
@@ -559,7 +584,7 @@
     	background-size: 150%;
 	    background-repeat: no-repeat;
 	    background-attachment: unset !important;
-	    background-position: -12rem 
+	    background-position: -12rem !important;
 	}
 }
 

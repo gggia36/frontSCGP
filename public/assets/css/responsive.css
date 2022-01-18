@@ -297,6 +297,13 @@
 }
 
 @media (max-width: 768px) {
+    .btn-read-more {
+        border-radius: 3rem;
+        border: 2px solid #0a70b6;
+        color: #0a70b6;
+        font-size: 18px;
+        padding: 0.25rem 0.5rem;
+    }
     nav.primary ul li.logo {
         flex: auto !important;
         text-align: left;
@@ -595,6 +602,10 @@
 
 }
 @media (max-width: 500px) {
+    .h-img-fix{
+        height: 245px;
+        object-fit: cover;
+    }
     .w-75-fix{
         width: 100%;
     }

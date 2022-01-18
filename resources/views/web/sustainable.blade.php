@@ -41,7 +41,7 @@
                 <div class="row">
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -97,7 +97,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -125,7 +125,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -153,7 +153,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -181,7 +181,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                       <a href="{{url('sustainable-detail')}}">
+                       <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -209,7 +209,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                        <a href="{{url('sustainable-detail')}}">
+                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -237,7 +237,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
-                       <a href="{{url('sustainable-detail')}}">
+                       <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
@@ -327,7 +327,7 @@
 
     .back5{
         opacity:0;
-        background-image: url('assets/Images/hover-thumbnail-slide.png');
+        background-image: url('assets/Images/CSR-ELEMENT.png');
         background-size: 100% 100%;
         position:absolute;
         overflow:hidden;

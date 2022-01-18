@@ -171,7 +171,7 @@
     nav.primary ul li.logo a {
         height: 72px;
         min-width: 150px;
-        background-image: url("//sendgrid.com/brand/sg-logo-300.png");
+        /* background-image: url("//sendgrid.com/brand/sg-logo-300.png"); */
         background-position: left 22px;
         background-repeat: no-repeat;
         background-size: 150px auto;
