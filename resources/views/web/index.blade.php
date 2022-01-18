@@ -527,7 +527,7 @@
     background-image: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
     background-size: 80%;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-position: -30em;
 }
 
@@ -631,6 +631,7 @@
 	.bg-image-solutions {
     	background-size: 150%;
 	    background-position: -45em;
+		background-attachment: unset;
 	}
 
 }
