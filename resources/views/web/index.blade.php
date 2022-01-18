@@ -178,7 +178,7 @@
 			<div class="col-md-6 col-12 px-0 bg-image-solutions" style="box-shadow: inset 0px 0px 90px 20px #fff">
 				
 			</div>
-			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000" style="box-shadow: inset 0px 0px 10px 0px #fff">
+			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000" style="box-shadow: inset 3px 3px 30px 0px #fff">
 				<h1 class="txt-blue pt-4" >SOLUTIONS</h1>
 				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  px-0  set-a" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
