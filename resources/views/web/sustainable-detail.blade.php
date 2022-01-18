@@ -134,8 +134,8 @@
         <div class="col-lg-8 col-md-10 col-12">
             <div class="row">
 
-                <div class="col-12 text-center mt-3">
-                    <img src="{{asset('assets/Images/Resolute.png')}}" class="w-75">
+                <div class="col-12 text-center mt-3" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="{{asset('assets/Images/Resolute.png')}}" class="w-75-fix">
                 </div>
 
                 <div class="col-12 text-center mt-5 recycle-guide-title">

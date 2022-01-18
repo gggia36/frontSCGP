@@ -1,4 +1,8 @@
-<section style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">
+<section class="d-lg-none d-block" style="background: url('assets/Images/navtop2.svg');background-repeat: no-repeat;background-size: 100% auto;">
+    <div class="py-md-3 py-1"></div>
+</section>
+
+<section class="d-none d-md-block" style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">
     <div class="container px-0">
         <div class="row align-items-center" id="MyContact">
             <div class="col-xxl-10 col-9 text-end">
@@ -10,12 +14,13 @@
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
                 </ul>
             </div>
-            <div class="col-xxl-2 col-3 text-white pe-2">
+            <div class="col-xxl-2 col-3 text-white pe-3">
                 <div class="d-flex justify-content-end">ENG <span class="px-2">|</span> ไทย</div>
             </div>
         </div>
     </div>
 </section>
+
 
 <div class="sticky-top o-09" id="sticky">
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white d-md-none d-lg-block d-none">
@@ -23,7 +28,7 @@
             <div class="headerNavber">
                 <div class="headerBrand">
                     <a class="d-flex align-items-center" href="{{url('/')}}">
-                        <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full-Version_Isolated.png')}}" />
+                        <img width="150" src="{{asset('assets/Images/logo/SCGP_Logo_Full Version_Isolated.svg')}}" />
                     </a>
                 </div>
                 <div class="headerMenu">
@@ -492,55 +497,55 @@
                          <div class="collapse" id="collapseDevelopment">
                             <ul class="sub-menu-mb">
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
+                                    <a href="{{url('/')}}" role="button">
                                       SCGP's SD Homepage
                                     </a>
 
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                       Approaches and SDGs
                                     </a>
                                    
                                 </li>
                                  <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}"role="button" >
                                       Environmental
                                     </a>
                                    
                                 </li>
                                  <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                      Social
                                     </a>
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                      Governance
                                     </a>
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                     Policy and SD Report
                                     </a>
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('sustainable')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('sustainable')}}" role="button" >
                                     CSR Highlight 
                                     </a>
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                      Sustainability in Action
                                     </a>
                                    
                                 </li>
                                 <li class="sub-menu-mb-item">
-                                    <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe2" aria-expanded="false" aria-controls="collapseWhoarewe2">
+                                    <a href="{{url('/')}}" role="button" >
                                     Awards & Recogniion
                                     </a>
                                    
@@ -549,10 +554,10 @@
                         </div>
                     </li>
                     <li class="navMenuMb-item">
-                         <div role="button" data-bs-toggle="collapse" data-bs-target="#collapseDevelopment" aria-expanded="false" aria-controls="collapseDevelopment">
+                         <div role="button" data-bs-toggle="collapse" data-bs-target="#Business" aria-expanded="false" aria-controls="Business">
                             <a href="javascript:void(0)">Business Update</a> <i class="fas fa-chevron-down float-end mt-1"></i>
                         </div>
-                         <div class="collapse" id="collapseDevelopment">
+                         <div class="collapse" id="Business">
                             <ul class="sub-menu-mb">
                                 <li class="sub-menu-mb-item">
                                     <a href="{{url('/')}}" role="button" data-bs-toggle="collapse" data-bs-target="#collapseWhoarewe1" aria-expanded="false" aria-controls="collapseWhoarewe1">
