@@ -670,6 +670,11 @@ a:focus {
     width: 100%;
     height: 100%;
 }
+.front0,
+.back {
+    width: 100%;
+    height: 100%;
+}
 .front,
 .back2 {
     width: 100%;
@@ -700,7 +705,12 @@ a:focus {
 /* Front */
 .front {
 }
+.front0 {
+}
 .front img {
+    width: auto;
+}
+.front0 img {
     width: auto;
 }
 .front3 {
@@ -865,6 +875,9 @@ a:focus {
 .wrap:hover .front p {
     top: 0;
 }
+.wrap:hover .front0 p {
+    top: 0;
+}
 
 .back {
     opacity: 0;
@@ -923,7 +936,7 @@ a:focus {
 }
 
 .wrap2:hover > .back2 {
-    opacity: 1;
+    opacity: 0.9;
     width: 100%;
     height: 100%;
     border-radius: 0px;
@@ -1002,7 +1015,7 @@ a:focus {
 .wrap4:hover {
     cursor: pointer;
 }
-.wrap4:hover .front p {
+.wrap4:hover .front4 p {
     top: 0;
 }
 
