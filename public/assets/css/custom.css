@@ -1058,9 +1058,15 @@ a:focus {
 .wrap5:hover {
     cursor: pointer;
 }
-.wrap5:hover .front p {
-    top: 0;
+.wrap5:hover .front5 h6 {
+   opacity: 0;
+   transition: all 0.3s linear 0.2s;
 }
+.wrap5:hover .front5 p {
+   opacity: 0;
+   transition: all 0.3s linear 0.2s;
+}
+
 
 .back5 {
     opacity: 0;
