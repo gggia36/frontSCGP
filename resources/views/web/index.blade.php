@@ -175,10 +175,10 @@
 <section class="section">
 	<div class="container-fluid " data-aos="fade-up" data-aos-duration="1000">
 		<div class="row" id="collapseSolution">
-			<div class="col-md-6 col-12 px-0 bg-image-solutions">
+			<div class="col-md-6 col-12 px-0 bg-image-solutions" style="box-shadow: inset 0px 0px 90px 20px #fff">
 				
 			</div>
-			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000">
+			<div class="col-md-6 col-12 box-show-card py-4" data-aos="fade-up" data-aos-duration="2000" style="box-shadow: inset 0px 0px 10px 0px #fff">
 				<h1 class="txt-blue pt-4" >SOLUTIONS</h1>
 				<div class="font-solution">
 					  <a class="txt-blue2 mb-0  px-0  set-a" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -480,15 +480,6 @@
 
 <style type="text/css">
 
-.bg-image-solutions {
-    background-image: url('assets/Images/img-x9.png');
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position-x: left;
-    background-attachment: fixed !important;
-    background-position: -40rem;
-}
-
 .back4{
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail-slide1.png');
@@ -513,6 +504,7 @@
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail-long.png');
   background-size: 100%;
+  background-repeat: round;
   position:absolute;
   overflow:hidden;
   top:0;
@@ -523,6 +515,7 @@
   opacity:0;
   background-image: url('assets/Images/hover-thumbnail.png');
   background-size: 100%;
+  background-repeat: round;
   position:absolute;
   overflow:hidden;
   top:0;
@@ -530,14 +523,15 @@
   transition:all .4s linear;
 }
 
-/* .bg-image-solutions {
-    background: url('assets/Images/img-x9.png');
+.bg-image-solutions {
+    background-image: url('assets/Images/img-x9.png');
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-position-x: right;
-} */
+    background-size: 80%;
+    background-attachment: fixed !important;
+    background-position: -30em;
+}
 
-@media (max-width: 1699px) {
+/* @media (max-width: 1699px) {
 	.bg-image-solutions {
 	    background-image: url(assets/Images/img-x9.png);
 	    background-repeat: no-repeat;
@@ -576,10 +570,10 @@
 	    background-size: 100%;
 	    background-position-x: left;
 	    background-attachment: fixed !important;
-	    background-position: -35rem !important;
+	    background-position: -30rem !important;
 	}
 
-}
+} */
 @media (max-width: 1199px) {
 	.back2{
 	  opacity:0;
@@ -591,38 +585,54 @@
 	  left:0;
 	  transition:all .4s linear;
 	}
-	.bg-image-solutions {
+	/* .bg-image-solutions {
 	    background-image: url(assets/Images/img-x9.png);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-position-x: left;
 	    background-attachment: fixed !important;
 	    background-position: -30rem !important;
-	}
+	} */
 	
 	
 }
 
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) {
 	.bg-image-solutions {
 	    background-image: url(assets/Images/img-x9.png);
 	    background-repeat: no-repeat;
-	    background-size: 90%;
+	    background-size: 100%;
 	    background-position-x: left;
 	    background-attachment: fixed !important;
 	    background-position: -47rem;
 	}
+} */
+
+@media (min-width: 1699px) {
+
+.bg-image-solutions {
+	background-size: 60%;
+	background-position: -10em;
+}
+
+}
+
+@media (max-width: 991px) {
+
+	.bg-image-solutions {
+		background-size: 100%;
+		background-position: -40em;
+	}
+
 }
 
 @media (max-width: 768px) {
-	
+
 	.bg-image-solutions {
-	    background-image: url('assets/Images/img-x9.png');
     	background-size: 150%;
-	    background-repeat: no-repeat;
-	    background-attachment: unset !important;
-	    background-position: -12rem !important;
+	    background-position: -45em;
 	}
+
 }
 
 </style>
