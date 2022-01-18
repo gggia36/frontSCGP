@@ -48,12 +48,16 @@
 				  <div class="front0 position-relative">
 				     <img class="w-100 img-thumbnail-product" src="{{asset('assets/Images/img-x1.png')}}"/>
 					 <div class="front-title-solution"></div>
-				   	 <p class="entypo-mobile text-uppercase">Innovative <br>Product</p>
+				   	 <p class="entypo-mobile text-uppercase d-md-block d-none">Innovative <br>Product</p>
+				   	 <p class="entypo-mobile text-uppercase d-md-none d-block">Innovative Product</p>
+
 				  </div>
 				  <div class="back">
 					  <div class="box-back">
 						  <div class="fade-text">
-								<h1 class="entypo-mobile text-uppercase">Innovative <br>Product</h1>
+								<h1 class="entypo-mobile text-uppercase d-md-block d-none">Innovative <br>Product</h1>
+								<h1 class="entypo-mobile text-uppercase d-md-none d-block">Innovative Product</h1>
+
 								<hr>
 								<p>Fiber-based packaging and
 								perfermance and
@@ -482,7 +486,7 @@
     background-size: 90%;
     background-position-x: left;
     background-attachment: fixed !important;
-    background-position: -40rem !important;
+    background-position: -40rem;
 }
 
 .back4{
@@ -532,7 +536,18 @@
     background-size: cover; 
     background-position-x: right;
 } */
-@media (max-width: 1500px) {
+
+@media (max-width: 1699px) {
+	.bg-image-solutions {
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 90%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -42rem !important;
+	}
+}
+@media (max-width: 1550px) {
 		.bg-image-solutions {
 	    background-image: url(assets/Images/img-x9.png);
 	    background-repeat: no-repeat;
@@ -540,6 +555,28 @@
 	    background-position-x: left;
 	    background-attachment: fixed !important;
 	    background-position: -40rem !important;
+	}
+
+}
+@media (max-width: 1400px) {
+		.bg-image-solutions {
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -35rem !important;
+	}
+
+}
+@media (max-width: 1350px) {
+	.bg-image-solutions {
+	    background-image: url(assets/Images/img-x9.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-position-x: left;
+	    background-attachment: fixed !important;
+	    background-position: -35rem !important;
 	}
 
 }
@@ -560,7 +597,7 @@
 	    background-size: 100%;
 	    background-position-x: left;
 	    background-attachment: fixed !important;
-	    background-position: -35rem !important;
+	    background-position: -30rem !important;
 	}
 	
 	
@@ -573,7 +610,7 @@
 	    background-size: 90%;
 	    background-position-x: left;
 	    background-attachment: fixed !important;
-	    background-position: -50rem;
+	    background-position: -47rem;
 	}
 }
 
