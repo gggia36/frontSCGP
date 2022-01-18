@@ -980,8 +980,9 @@ a:focus {
 .wrap3:hover {
     cursor: pointer;
 }
-.wrap3:hover .front p {
-    top: 0;
+.wrap3:hover .front3 p {
+    opacity: 0;
+
 }
 
 .back3 {
