@@ -635,6 +635,17 @@
 
 }
 
+@media (max-width: 500px) {
+	.bg-image-solutions {
+	    background-size: 120%;
+	    background-position: -7rem;
+	    background-attachment: unset !important;
+	}
+}
+
+
+
+
 </style>
 @endsection
 
