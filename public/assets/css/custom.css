@@ -371,11 +371,11 @@ a:focus {
 
 .menuNav li a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 .menuNav li label {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .menuNav li .menu-item:focus, .menuNav li .menu-item:hover {
