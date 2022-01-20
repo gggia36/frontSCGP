@@ -229,7 +229,7 @@
                                             <div class="card sub-card">
                                                 <img src="{{asset('assets/Images/Pouch.jpg')}}" class="card-img-top card-img-h-100">
                                                 <div class="card-footer">
-                                                    <small>Luxury <span class="d-none d-md-block">Packaging</span></small>
+                                                    <small>Pouch </small>
                                                 </div>
                                             </div>
                                         </div>

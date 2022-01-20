@@ -64,6 +64,8 @@ a:focus {
     cursor: pointer;
     text-decoration: none;
 }
+
+
 .txt-date-slide{
     position: absolute;
     left: 5%;
@@ -1301,6 +1303,12 @@ a.set-a:focus{
     background: url('../Images/Upper-BG.png');
     background-repeat: no-repeat; 
     background-size:100% 100%;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 77.08333vw;
+    max-width: 100%!important;
 }
 
 .font-solution {
