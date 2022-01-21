@@ -12,10 +12,10 @@
 
             <div class="col-12 bg-white ">
                 <div class="row">
-                    <div class="col-md-7 col-12 px-3">
+                    <div class="col-lg-7 col-12 px-3">
                         <img src="assets/Images/SD Spotlight.jpg" class="w-100 h-100" >
                     </div>
-                    <div class="col-md-5 col-12 ">
+                    <div class="col-lg-5 col-12 ">
                         <div class="px-3 pt-4 pb-2 CSR-Top">
                             <h4>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h4>
                             <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -295,35 +295,7 @@
 
 </section>
 <style>
-    .bg-white {
-        background: #FFF;
-    }
-
-    .CSR-Top h4 {
-        color: #1c1666;
-        font-family: "SCG Bold";
-    }
-
-    .CSR-Top p {
-        font-family: "SCG Regular";
-        font-size: 1rem;
-        color: #000;
-    }
-
-    .btn-ok {
-        border-radius: 3rem;
-        padding: 0.25rem 2rem;
-        border: 2px solid #0a70b6;
-        font-size: 18px;
-    }
-
-    .select-date {
-        border-radius: 3rem;
-        border: 2px solid #0a70b6;
-        color: #0a70b6;
-        padding: 0.2rem 0.5rem;
-        font-size: 18px;
-    }
+    
 
     .back5{
         opacity:0;
@@ -336,37 +308,6 @@
         transition:all .4s linear;
     }
 
-    .page-link {
-        background: transparent;
-        border: 0px;
-        font-family: "SCG Bold";
-        font-size: 1rem;
-    }
-    .page-link {
-        color: #0061ad;
-    }
-
-    .page-item.active .page-link {
-        color: #1c1666;
-        background-color: transparent;
-        border-color: 0px;
-    }
-
-    .card-body h6{
-        color: #0061ad;
-        font-family: "SCG Bold";
-    }
-
-    .card-body p{
-        color: #000;
-        font-family: "SCG Regular";
-        font-size: 0.9rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
 
 </style>
 

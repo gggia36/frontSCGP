@@ -2,7 +2,7 @@
     <div class="py-md-3 py-1"></div>
 </section>
 
-<section class="d-none d-md-block" style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">
+<section class="d-none d-lg-block" style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">
     <div class="container px-0">
         <div class="row align-items-center" id="MyContact">
             <div class="col-xxl-10 col-9 text-end">

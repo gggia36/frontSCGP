@@ -1,10 +1,21 @@
+@media (max-width: 2400px) and (min-width: 1024px) {
+    .container{
+        margin: 0 auto;
+        padding: 0;
+        width: 77.08333vw;
+        max-width: 100%!important;
+    }
+    
+}
+
+
 @media (max-width: 1990px) and (min-width: 1900px){
    .px-xxl-5 {
         padding-right: 0rem!important;
         padding-left: 0rem!important;
     }
     .space-contact {
-        padding-right: 5rem;
+        padding-right: 9rem;
     }
 }
 
@@ -19,8 +30,50 @@
         padding-right: 10rem;
     }
 }
+@media (max-width: 1599px) and (min-width: 1500px){
+    .space-contact {
+        padding-right: 10rem;
+    }
+    .front p {
+        position: relative;
+        bottom: 65px;
+        font-size: 26px;
+    }
+    .front0 p {
+        position: relative;
+        bottom: 93px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .wrap {
+        height: 290px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .wrap2 {
+        height: 290px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .back2 h1 {
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        top: 65%;
+    }
+    .back h1 {
+        font-size: 24px;
+        color: #fff;
+        top: 53%;
+    }
+}
 
 @media (max-width: 1499px) and (min-width: 1400px){
+    .space-contact {
+        padding-right: 8rem;
+    }
     .menuNav li a {
         text-decoration: none;
         font-size: 0.8rem;
@@ -43,7 +96,7 @@
 @media (max-width: 1399px){
     .menuNav li a {
         text-decoration: none;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     .menuNav li label {
         text-decoration: none;
@@ -52,8 +105,69 @@
 }
 
 @media (max-width: 1499px) and (min-width: 1299px){
-    .space-contact {
-        padding-right: 12rem;
+    .h-img-fix {
+        height: 231px;
+        object-fit: cover;
+    }
+    .back5 h6 {
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+        font-size: 15px;
+
+    }
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 15px;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .wrap {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .front p {
+        position: relative;
+        bottom: 97px;
+        font-size: 24px;
+    }
+    .front0 p {
+        position: relative;
+        bottom: 125px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .wrap2 {
+        height: 251px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .back2 h1 {
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        top: 65%;
+    }
+    .back h1 {
+        font-size: 24px;
+        color: #fff;
+        top: 53%;
     }
 }
 
@@ -84,39 +198,91 @@
     }
 }
 
-@media (max-width: 1399px) and (min-width: 1201px){
+@media (max-width: 1298px) and (min-width: 1201px){
+    .h-img-fix {
+        height: 200px;
+        object-fit: cover;
+    }
+    .back5 h6 {
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+        font-size: 11px;
+        
+    }
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 13px;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .back5 p{
+        font-size: 0.6rem;
+    }
     .space-contact {
         padding-right: 5.3rem;
     }
-    /* .wrap {
-        height: 267px;
+    .wrap {
+        height: 230px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
     .front p {
         position: relative;
-        bottom: 80px;
+        bottom: 117px;
+        font-size: 24px;
     }
     .front0 p {
         position: relative;
-        bottom: 123px;
-    }
-    .box-back {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        right: 0;
+        bottom: 140px;
+        font-size: 24px;
+        line-height: 28px;
     }
     .wrap2 {
-        height: 275px;
+        height: 230px;
         width: 100%;
         overflow: hidden;
         position: relative;
-    } */
+    }
+    .back2 h1 {
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        top: 75%;
+    }
+    .back h1 {
+        font-size: 24px;
+        color: #fff;
+        top: 60%;
+    }
+    .box-back {
+        position: absolute;
+        top: 48%;
+        left: 0;
+        right: 0;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1366px){
+    .space-contact {
+        padding-right: 3rem;
+    }
+
 }
 
-@media (max-width: 1199px) and (min-width: 1099px){
+@media (max-width: 1200px) and (min-width: 1099px){
     .space-contact {
         padding-right: 3rem;
     }
@@ -124,27 +290,27 @@
         text-decoration: none;
         font-size: 10px;
     } */
-    /* .wrap {
-        height: 222px;
+    .wrap {
+        height: 213px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
     .front p {
         position: relative;
-        bottom: 120px;
+        bottom: 130px;
         font-size: 20px;
     }
     .front0 p {
         position: relative;
-        bottom: 138px;
+        bottom: 145px;
         font-size: 20px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
         line-height: 25px;
     }
     .wrap2 {
-        height: 222px;
+        height: 213px;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -172,34 +338,34 @@
         text-shadow: 2px 1px 7px #000000ad;
         position: relative;
         font-family: 'SCG Bold';
-    } */
+    }
 }
 
-@media (max-width: 1099px) and (min-width: 991px){
+@media (max-width: 1099px) and (min-width: 1035px){
     .space-contact {
         padding-right: 4rem;
     }
-    /* .wrap {
-        height: 222px;
+    .wrap {
+        height: 193px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
     .front p {
         position: relative;
-        bottom: 120px;
+        bottom: 145px;
         font-size: 20px;
     }
     .front0 p {
         position: relative;
-        bottom: 138px;
+        bottom: 165px;
         font-size: 20px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
         line-height: 25px;
     }
     .wrap2 {
-        height: 222px;
+        height: 193px;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -227,10 +393,7 @@
         text-shadow: 2px 1px 7px #000000ad;
         position: relative;
         font-family: 'SCG Bold';
-    } */
-}
-@media (max-width: 2000px) and (min-width: 1400px) {
- 
+    }
 }
 
 
@@ -239,9 +402,11 @@
         color: #0061ad;
         font-size: 14px;
     }
-  
         
 }
+
+
+
 
 @media (min-width: 1200px) {
     .navbar-light .navbar-nav .nav-link {
@@ -253,6 +418,9 @@
 }
 
 @media (max-width: 1024px) {
+    .space-contact {
+        padding-right: 3rem;
+    }
 	.top-carousel-owl .owl-next {
 	    font-size: 4rem !important;
 	}
@@ -296,7 +464,7 @@
     }
     .front p {
         position: relative;
-        top: -52px;
+        top: -65px;
         font-size: 16px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
@@ -318,7 +486,7 @@
     }
     .front0 p {
         position: relative;
-        top: -52px;
+        top: -90px;
         font-size: 16px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
@@ -584,7 +752,7 @@
     }
     .front0 p {
         position: relative;
-        top: -52px;
+        top: -75px;
         font-size: 16px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
@@ -684,6 +852,12 @@
         top: 40% !important;
         transition: all 0.3s linear 0.2s;
     }
+    .box-back {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    right: 0;
+}
 
     /* effect */
     .wrap:hover {

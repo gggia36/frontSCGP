@@ -398,73 +398,7 @@
 
 </div>
 </section>
-<style>
-    .bg-f1{
-        background: #f1f2f2;
-    }
-
-    .card {
-        border-radius: 1.25rem;
-        background-color: transparent;
-    }
-
-    .card-img-top {
-        border-top-left-radius: 1.25rem!important;
-        border-top-right-radius: 1.25rem!important;
-    }
-
-    .bd-bottom-ee {
-        border-bottom: 7px solid #ee5222;
-        box-shadow: inset 90px -274px 20px -100px #0000005c;
-    }
-
-    .card-body {
-        border-bottom-left-radius: 1.25rem!important;
-        border-bottom-right-radius: 1.25rem!important;
-        padding-bottom: 0.5rem;
-    }
-
-    .sub-img {
-        z-index: 10;
-    }
-
-    .title-packaging {
-        color: #FFF;
-    }
-
-    .title-packaging h4 {
-        font-family: "SCG Bold";
-    }
-
-    .title-packaging h4 span {
-        border-bottom: 2px solid #FFF;
-        text-transform: uppercase;
-    }
-
-    .title-packaging p {
-        font-family: "SCG Regular";
-        font-size: 0.9rem;
-    }
-
-    .img-packaging {
-        color: #FFF;
-        /* border-bottom: 5px solid #ee5222; */
-        padding-bottom: 0.5rem;
-    }
-
-    .img-packaging h5 {
-        font-family: "SCG Bold";
-    }
-
-    .img-packaging h5 span {
-        border-bottom: 2px solid #FFF;
-        text-transform: uppercase;
-    }
-
-    .img-packaging p {
-        font-family: "SCG Regular";
-        font-size: 0.9rem;
-    }
+<style type="text/css">
 
     .back6{
         opacity:0;
@@ -477,45 +411,7 @@
         transition:all .4s linear;
     }
 
-    .title-packaging h5 span {
-        border-bottom: 2px solid #FFF;
-        text-transform: uppercase;
-    }
-
-    .card-img-h-100 {
-        height: 100px !important;
-        object-fit: cover;
-    }
-
-    .card-footer {
-        padding: 0px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFF !important;
-        font-family: "SCG Regular";
-        border-bottom-left-radius: 1.25rem!important;
-        border-bottom-right-radius: 1.25rem!important;
-        background: #ee5222;
-    }
-
-    .card-footer small {
-        font-size: 0.7rem;
-    }
-
-    .sub-card {
-        position: relative;
-        z-index: 10;
-    }
-
-    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-        color: #0a70b6 !important;
-    }
-
-    .top-70 {
-        top: 70%;
-    }
     
-
 </style>
 
 @endsection
