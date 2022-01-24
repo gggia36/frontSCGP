@@ -1,7 +1,7 @@
 $('#carousel-new').owlCarousel({
   autoplay: true,
   rewind: true, 
-  margin: 10,
+  margin: 8,
    /*
   animateOut: 'fadeOut',
   animateIn: 'fadeIn',

@@ -1,5 +1,5 @@
 <section class="d-lg-none d-block" style="background: url('assets/Images/navtop2.svg');background-repeat: no-repeat;background-size: 100% auto;">
-    <div class="py-md-3 py-1"></div>
+    <div class="py-md-2 py-1"></div>
 </section>
 
 <section class="d-none d-lg-block" style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">
@@ -7,14 +7,14 @@
         <div class="row align-items-center" id="MyContact">
             <div class="col-xxl-10 col-9 text-end">
                 <ul class="dis-none-style float-end align-items-center space-contact">
-                    <li><a class="text-white" href="{{url('contact')}}">CONTACT US</a></li>
+                    <li><a class="text-white font-14" href="{{url('contact')}}">CONTACT US</a></li>
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/facebook.png')}}" alt="" /></li>
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/youtube.png')}}" alt="" /></li>
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/twitter.png')}}" alt="" /></li>
                     <li class="fix-mar-nav-top"><img class="w-15" src="{{asset('assets/Images/logo/instagram.png')}}" alt="" /></li>
                 </ul>
             </div>
-            <div class="col-xxl-2 col-3 text-white pe-3">
+            <div class="col-xxl-2 col-3 text-white pe-3 font-14">
                 <div class="d-flex justify-content-end">ENG <span class="px-2">|</span> ไทย</div>
             </div>
         </div>

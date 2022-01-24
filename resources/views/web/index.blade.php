@@ -453,7 +453,7 @@
 	<div class="container">
 		<div class="row text-center pt-3 pb-2" >
 			<div class="col-12">
-				<h5 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
+				<h6 class="txt-blue">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h6>
 			</div>
 			<div class="col-12">
 				<img class="w-75" src="{{asset('assets/Images/img-customer.png')}}">
@@ -466,7 +466,7 @@
 	<div class="container">
 		<div class="row text-center py-3" >
 			<div class="col-12">
-				<h5 class="txt-blue fix-fonttext-footer">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h5>
+				<h6 class="txt-blue fix-fonttext-footer">SUBSIDIARIES AND JOINT VENTURES OF SCG PACKAGING</h6>
 			</div>
 			<div class="col-12">
 				<img class="w-100" src="{{asset('assets/Images/img-customer-sm.png')}}">

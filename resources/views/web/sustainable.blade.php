@@ -13,7 +13,7 @@
             <div class="col-12 bg-white ">
                 <div class="row">
                     <div class="col-lg-7 col-12 px-3">
-                        <img src="assets/Images/SD Spotlight.jpg" class="w-100 h-100" >
+                        <img src="assets/Images/SD Spotlight.jpg" class="w-100 h-100 object-cover" >
                     </div>
                     <div class="col-lg-5 col-12 ">
                         <div class="px-3 pt-4 pb-2 CSR-Top">
@@ -40,14 +40,14 @@
             <div class="col-12 mt-4 px-0">
                 <div class="row">
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -57,7 +57,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -68,14 +68,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -85,7 +85,7 @@
                             <div class="back5 ">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -96,14 +96,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -113,7 +113,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -124,14 +124,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -141,7 +141,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -152,14 +152,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -169,7 +169,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -180,14 +180,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -197,7 +197,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -208,14 +208,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -225,7 +225,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -236,14 +236,14 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-12 mt-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
                        <a >
                             <div class="wrap5">
                             <div class="front5">
                                 <div class="card w-100">
                                     <img src="{{asset('assets/Images/img-x13.png')}}" class="card-img-top h-img-fix">
                                     <div class="card-body">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p class="card-text">
                                              SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>
@@ -253,7 +253,7 @@
                             <div class="back5">
                                 <div class="box-back-5">
                                     <div class="fade-text5">
-                                        <h6>โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
+                                        <h6 class="fixed-text-3">โครงการประกวดออกแบบบรรจุภัณฑ์ "THE CHALLENGE-PACKAGING DESIGN CONTEST"</h6>
                                         <p>
                                             SCG ร่วมกับ SCC และมูลนิธิเอสซีจี ได้มอบทุนการศึกษาให้แก่เยาวชนที่อาศัยอยู่ในชุมชนที่อยู่บริเวณรอบของโรงงานผลิตต่าง ๆ ของบริษัทฯ เพราะเชื่อว่าการศึกษาจะ...
                                         </p>

@@ -21,7 +21,7 @@
                            <!--  <img  src="{{asset('assets/Images/Packaging-1.jpg')}}" class="card-img-top img-packaging-fix-h"> -->
                             <div class="position-absolute top-70 start-0 w-100 h-100">
                                 <div class="text-center title-packaging">
-                                    <h4>
+                                    <h4 >
                                         <span>Primary Packaging</span>                             
                                     </h4>
                                     <p class="px-3">The Packaging in direct contact with the product itself such as flexible packaging and Rigid packaging</p>
@@ -33,7 +33,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Pouch.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Pouch</small>
                                         </div>
                                     </div>
@@ -41,7 +41,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Stand up pouch.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Stand up Pouch</small>
                                         </div>
                                     </div>
@@ -49,7 +49,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Wicket bag.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Wicket Bag</small>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Luxiry packaging.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Luyxury Packaging</small>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Gift set.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Gift Set</small>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Shopping bag.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Shopping Bag</small>
                                         </div>
                                     </div>
@@ -157,7 +157,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Paper tray.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Paper Tray</small>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Paper pallet.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Paper Pallet</small>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@
                                 <div class="col-4 p-1">
                                     <div class="card sub-card">
                                         <img src="{{asset('assets/Images/Parcel box.jpg')}}" class="card-img-top card-img-h-100">
-                                        <div class="card-footer">
+                                        <div class="card-footer pk-h-txt">
                                             <small>Parcel Box</small>
                                         </div>
                                     </div>
