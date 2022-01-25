@@ -532,6 +532,9 @@ a:focus {
     border-radius: 3rem;
     display: block;
 }
+.f-solo-og{
+    font-size: 13px !important;
+}
 
 .btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
@@ -569,7 +572,7 @@ a:focus {
     background: -webkit-linear-gradient(0deg, rgba(0, 87, 166, 1) 0%, rgba(0, 129, 200, 1) 100%);
     background: linear-gradient(0deg, rgba(0, 87, 166, 1) 0%, rgba(0, 129, 200, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057a6",endColorstr="#0081c8",GradientType=1);
-    height: 600px;
+    height: auto;
 }
 
 .h-box {

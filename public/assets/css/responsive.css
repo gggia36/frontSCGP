@@ -1,6 +1,21 @@
+
+@media (min-width: 2450px) {
+    .col-xxl-10 {
+        flex: 0 0 auto;
+        width: 87.333333% !important;
+    }
+    .col-xxl-2 {
+        flex: 0 0 auto;
+        width: 12.666667% !important;
+    }
+
+}
 @media (min-width: 2401px) {
     .space-contact {
         padding-right: 0rem;
+    }
+    .f-solo-og{
+        font-size: 17px !important;
     }
     .font-14 {
         font-size: 14px;
@@ -13,9 +28,13 @@
         text-decoration: none;
          font-size: 16px;
     }
+    
 
 }
 @media (max-width: 2400px) and (min-width: 1210px) {
+    .f-solo-og{
+        font-size: 17px !important;
+    }
     .container {
         margin: 0 auto;
         padding: 0;
@@ -25,6 +44,12 @@
 }
 
 @media (max-width: 1990px) and (min-width: 1900px) {
+    .h-box {
+        height: 6rem;
+    }
+    .f-solo-og{
+        font-size: 17px !important;
+    }
     .px-xxl-5 {
         padding-right: 0rem !important;
         padding-left: 0rem !important;
@@ -36,9 +61,19 @@
         height: 22px;
         overflow: hidden;
     }
+    .img-product-fix {
+        width: 100%;
+        border-radius: 1rem 1rem 0rem 0rem;
+        height: 225px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 1900px) and (min-width: 1800px) {
+    .f-solo-og{
+        font-size: 17px !important;
+    }
+
     .space-contact {
         padding-right: 3rem;
     }
@@ -48,6 +83,10 @@
     }
 }
 @media (max-width: 1799px) and (min-width: 1600px) {
+    .f-solo-og{
+        font-size: 16px !important;
+    }
+
     .h-img-fix {
         height: 200px;
         object-fit: cover;
@@ -109,6 +148,10 @@
     }
 }
 @media (max-width: 1699px) and (min-width: 1600px) {
+    .f-solo-og{
+        font-size: 15px !important;
+    }
+
     .h-img-fix {
         height: 200px;
         object-fit: cover;
@@ -118,7 +161,7 @@
         object-fit: cover;
     }
     .ul-font {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .menuNav li a {
         text-decoration: none;
@@ -133,13 +176,13 @@
     }
     .box-back {
         position: absolute;
-        top: 40%;
+        top: 48%;
         left: 0;
         right: 0;
     }
     .box-back-2 {
         position: absolute;
-        top: 48%;
+        top: 60%;
         left: 0;
         right: 0;
     }
@@ -154,11 +197,23 @@
         left: 0;
         transition: all 0.4s linear;
     }
+    .back3 p{
+        top: 66% !important;
+    }
+    .back4 p {
+        top: 66% !important;
+    }
+    .back h1 {
+        font-size: 27px;
+    }
+    .back2 h1 {
+        font-size: 27px;
+    }
 
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 207px;
+        height: 180px;
         object-fit: cover;
     }
     .img-packaging-fix-h {
@@ -170,9 +225,80 @@
         height: 22px;
         overflow: hidden;
     }
+    .h-box {
+        height: 5.8rem;
+    }
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 0.9rem;
+    }
+    .back5 h6 {
+        font-size: 0.9rem;
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+    }
+    .back5 p{
+        font-size: 0.7rem;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .h-img-fix {
+        height: 170px;
+        object-fit: cover;
+    }
+    .top-70 {
+        top: 65%;
+    }
+    .top-50 {
+        top: 46%!important;
+    }
 }
 
 @media (max-width: 1599px) and (min-width: 1500px) {
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 0.9rem;
+    }
+    .back5 h6 {
+        font-size: 0.9rem;
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+    }
+    .back5 p{
+        font-size: 0.7rem;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .f-solo-og{
+        font-size: 15px !important;
+    }
+
     .card-img-h-100 {
         height: 70px !important;
         object-fit: cover;
@@ -183,7 +309,7 @@
         object-fit: cover;
     }
     .h-img-fix {
-        height: 180px;
+        height: 160px;
         object-fit: cover;
     }
     .box-back-5 {
@@ -191,6 +317,18 @@
         top: 60%;
         left: 0;
         right: 0;
+    }
+    .front4 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
+    }
+    .front3 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
     }
     .back5 {
         opacity: 0;
@@ -216,7 +354,7 @@
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 190px;
+        height: 165px;
         object-fit: cover;
     }
     .space-contact {
@@ -236,7 +374,7 @@
         margin: 10px 5px;
         color: #fff;
         position: relative;
-        top: 63% !important;
+        top: 60% !important;
         transition: all 0.3s linear 0.2s;
     }
     .back3 p {
@@ -245,36 +383,13 @@
         margin: 10px 5px;
         color: #fff;
         position: relative;
-        top: 63% !important;
+        top: 60% !important;
         transition: all 0.3s linear 0.2s;
     }
     .ul-font {
         font-size: 0.7rem;
     }
 
-    /* .front p {
-        position: relative;
-        bottom: 65px;
-        font-size: 26px;
-    }
-    .front0 p {
-        position: relative;
-        bottom: 93px;
-        font-size: 26px;
-        line-height: 31px;
-    }
-    .wrap {
-        height: 290px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-    .wrap2 {
-        height: 290px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    } */
     .back2 h1 {
         text-align: center;
         font-size: 24px;
@@ -290,17 +405,63 @@
         height: 22px;
         overflow: hidden;
     }
+    .h-box {
+        height: 6rem;
+    }
 }
 
 @media (max-width: 1499px) and (min-width: 1400px) {
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 0.8rem;
+    }
+    .back5 h6 {
+        font-size: 0.8rem;
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+    }
+    .back5 p{
+        font-size: 0.7rem;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .h-img-fix {
+        height: 155px;
+        object-fit: cover;
+    }
     .img-packaging-fix-h {
         width: 100%;
         height: 285px;
         object-fit: cover;
     }
-    .h-img-fix {
-        height: 180px !important;
-        object-fit: cover;
+    
+    .front4 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.8rem;
+    }
+    .front3 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.8rem;
+    }
+    .h-box {
+        height: 5.7rem;
     }
     .box-back-5 {
         position: absolute;
@@ -329,9 +490,19 @@
         left: 0;
         transition: all 0.4s linear;
     }
+
+    .back p {
+        font-size: 11px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 53% !important;
+        transition: all 0.3s linear 0.2s;
+    }
     .box-back {
         position: absolute;
-        top: 25%;
+        top: 50%;
         left: 0;
         right: 0;
     }
@@ -358,27 +529,30 @@
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 180px;
+        height: 150px;
         object-fit: cover;
     }
     .back4 p {
-        font-size: 16px;
+        font-size: 14px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
         position: relative;
-        top: 65% !important;
+        top: 62% !important;
         transition: all 0.3s linear 0.2s;
     }
+
     .back3 p {
-        font-size: 16px;
+        font-size: 14px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
         position: relative;
-        top: 65% !important;
+        top: 62% !important;
         transition: all 0.3s linear 0.2s;
     }
+    
+
     .card-img-h-100 {
         height: 55px !important;
         object-fit: cover;
@@ -422,15 +596,49 @@
         transition: all 0.3s;
         font-family: "SCG Bold";
     }
+    .f-solo-og{
+        font-size: 13px !important;
+    }
+
 }
 @media (max-width: 1399px) and (min-width: 1300px) {
+    .f-solo-og{
+        font-size: 13px !important;
+    }
     .img-packaging-fix-h {
         width: 100%;
         height: 340px;
         object-fit: cover;
     }
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 0.9rem;
+    }
+    .back5 h6 {
+        font-size: 0.9rem;
+        color: #fff;
+        top: 65%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+    }
+    .back5 p{
+        font-size: 0.7rem;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     .h-img-fix {
-        height: 180px !important;
+        height: 165px;
         object-fit: cover;
     }
     .box-back-5 {
@@ -480,7 +688,7 @@
         transition: all 0.4s linear;
     }
     .back4 p {
-        font-size: 16px;
+        font-size: 13px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
@@ -490,7 +698,7 @@
     }
 
     .back3 p {
-        font-size: 16px;
+        font-size: 13px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
@@ -516,7 +724,7 @@
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 165px;
+        height: 150px;
         object-fit: cover;
     }
     .box-back {
@@ -527,7 +735,7 @@
     }
 
     .h-box {
-        height: 6rem;
+        height: 5.6rem;
     }
     .front3 p {
         position: relative;
@@ -578,49 +786,42 @@
 }
 
 @media (max-width: 1499px) and (min-width: 1299px) {
+    .box-show-card > h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        font-family: "SCG Bold";
+    }
+    .f-solo-og{
+        font-size: 14px !important;
+    }
     .pk-h-txt{
         height: 22px;
         overflow: hidden;
     }
 
-    .h-img-fix {
+    /* .h-img-fix {
         height: 231px;
         object-fit: cover;
-    }
-    .back5 h6 {
+    } */
+    /* .back5 h6 {
         color: #fff;
         top: 65%;
         text-shadow: 2px 1px 7px #000000ad;
         position: relative;
         font-family: "SCG Bold";
         padding: 0.2rem 1rem 0rem 1rem;
-        font-size: 15px;
-    }
-    .card-body h6 {
-        color: #0061ad;
-        font-family: "SCG Bold";
-        font-size: 15px;
-    }
-    .card-body p {
-        color: #000;
-        font-family: "SCG Regular";
-        font-size: 0.7rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .back2 h1 {
-        text-align: center;
-        font-size: 24px;
-        color: #fff;
-        top: 65%;
-    }
+        font-size: 14px;
+    } */
+    
     .back h1 {
-        font-size: 24px;
+        font-size: 1rem;
         color: #fff;
         top: 53%;
+    }
+    .back2 h1 {
+        font-size: 1rem;
+        color: #fff;
+        top: 65%;
     }
 }
 
@@ -652,6 +853,14 @@
 }
 
 @media (max-width: 1298px) and (min-width: 1201px) {
+    .box-show-card > h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        font-family: "SCG Bold";
+    }
+    .f-solo-og{
+        font-size: 13px !important;
+    }
     .img-packaging-fix-h {
         width: 100%;
         height: 340px;
@@ -764,25 +973,31 @@
     }
     .back2 h1 {
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
         top: 75%;
     }
     .back h1 {
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
         top: 60%;
     }
     .box-back {
         position: absolute;
-        top: 35%;
+        top: 48%;
+        left: 0;
+        right: 0;
+    }
+    .box-back-2 {
+        position: absolute;
+        top: 70%;
         left: 0;
         right: 0;
     }
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 150px;
+        height: 135px;
         object-fit: cover;
     }
     .back3,
@@ -809,10 +1024,10 @@
         font-size: 0.8rem;
     }
     .h-box {
-        height: 5.6rem;
+        height: 5rem;
     }
     .back3 p {
-        font-size: 14px;
+        font-size: 12px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
@@ -821,7 +1036,7 @@
         transition: all 0.3s linear 0.2s;
     }
     .back4 p {
-        font-size: 14px;
+        font-size: 12px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
@@ -832,41 +1047,69 @@
     .ul-font {
         font-size: 0.5rem;
     }
+    .back p {
+        font-size: 8px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 53% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back2 p {
+        font-size: 8px;
+    }
+    .title-packaging p {
+        font-family: "SCG Regular";
+        font-size: 0.8rem;
+    }
+    .img-packaging p {
+        font-family: "SCG Regular";
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 1099px) {
+    .img-product-fix {
+        width: 100%;
+        border-radius: 1rem 1rem 0rem 0rem;
+        height: 190px;
+        object-fit: cover;
+    }
     .space-contact {
         padding-right: 3rem;
     }
-    /* .menuNav li a {
-        text-decoration: none;
-        font-size: 10px;
-    } */
-    /* .wrap {
-        height: 213px;
-        width: 100%;
-        overflow: hidden;
+    .front4 p {
         position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
     }
-    .front p {
+    .front3 p {
         position: relative;
-        bottom: 130px;
-        font-size: 20px;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
     }
-    .front0 p {
-        position: relative;
-        bottom: 145px;
-        font-size: 20px;
+    .back4 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
         color: #fff;
-        text-shadow: 2px 1px 7px #000000ad;
-        line-height: 25px;
-    }
-    .wrap2 {
-        height: 213px;
-        width: 100%;
-        overflow: hidden;
         position: relative;
-    } */
+        top: 70% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back3 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 70% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+   
     .back h1 {
         text-align: center;
         font-size: 20px;
@@ -890,47 +1133,71 @@
         text-shadow: 2px 1px 7px #000000ad;
         position: relative;
         font-family: "SCG Bold";
+    }
+    .h-box {
+        height: 5rem;
+    }
+    .menuNav li a {
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+    .ul-font {
+        font-size: 0.7rem;
     }
 }
 
 @media (max-width: 1099px) and (min-width: 1035px) {
+     .img-product-fix {
+        width: 100%;
+        border-radius: 1rem 1rem 0rem 0rem;
+        height: 190px;
+        object-fit: cover;
+    }
+    .w-15 {
+        width: 9% !important;
+    }
     .space-contact {
         padding-right: 4rem;
     }
-    /* .wrap {
-        height: 193px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
+     .menuNav li a {
+        text-decoration: none;
+        font-size: 0.7rem;
     }
-    .front p {
-        position: relative;
-        bottom: 145px;
-        font-size: 20px;
+    .ul-font {
+        font-size: 0.7rem;
     }
-    .front0 p {
+    .front4 p {
         position: relative;
-        bottom: 165px;
-        font-size: 20px;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
+    }
+    .front3 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
+    }
+    .back4 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
         color: #fff;
-        text-shadow: 2px 1px 7px #000000ad;
-        line-height: 25px;
-    }
-    .wrap2 {
-        height: 193px;
-        width: 100%;
-        overflow: hidden;
         position: relative;
-    } */
-    .back h1 {
-        text-align: center;
-        font-size: 20px;
+        top: 70% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back3 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
         color: #fff;
-        top: 53%;
-        text-shadow: 2px 1px 7px #000000ad;
         position: relative;
-        font-family: "SCG Bold";
+        top: 70% !important;
+        transition: all 0.3s linear 0.2s;
     }
+   
+   
     .box-back {
         position: absolute;
         top: 50%;
@@ -946,6 +1213,26 @@
         position: relative;
         font-family: "SCG Bold";
     }
+    .h-box {
+        height: 5rem;
+    }
+    
+    .back h1 {
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        top: 53%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+    }
+    .box-back {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+    
 }
 
 @media (min-width: 1699px) {
@@ -990,6 +1277,16 @@
 }
 
 @media (max-width: 1024px) {
+    .fix-mar-nav-top {
+        margin: 0rem -85px;
+    }
+    .bg-image-solutions {
+        background-image: url("../Images/img-x9.png");
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        background-attachment: fixed;
+        background-position: -58em !important;
+    }
     .back3,
     .back4 {
         opacity: 0;
@@ -1150,14 +1447,23 @@
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 180px;
+        height: 170px;
         object-fit: cover;
     }
     .h-box {
-        height: 6.8rem;
+        height: 5.6rem;
     }
     .back4 p {
-        font-size: 16px;
+        font-size: 15px;
+        text-align: left;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 65% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back3 p {
+        font-size: 15px;
         text-align: left;
         margin: 10px 5px;
         color: #fff;
@@ -1334,7 +1640,7 @@
     }
     .front p {
         position: relative;
-        top: -52px;
+        top: -40px;
         font-size: 16px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
@@ -1356,7 +1662,7 @@
     }
     .front0 p {
         position: relative;
-        top: -75px;
+        top: -65px;
         font-size: 16px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
@@ -1458,7 +1764,7 @@
     }
     .box-back {
         position: absolute;
-        top: 13%;
+        top: 30%;
         left: 0;
         right: 0;
     }
@@ -1557,9 +1863,140 @@
         left: 0;
         transition: all 0.4s linear;
     }
+    .h-box {
+        height: 6.7rem;
+    }
+}
+@media (max-width:766px) {
+    .wrap {
+        height: 540px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .wrap2 {
+        height: 540px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .img-thumbnail-product {
+        height: 100%;
+        object-fit: cover;
+    }
+    .img-thumbnail-product-2 {
+         height: 100%;
+        object-fit: cover;
+    }
+    .front p {
+        position: relative;
+        top: -65px;
+        font-size: 35px;
+        color: #fff;
+        text-shadow: 2px 1px 7px #000000ad;
+        line-height: 24px;
+        color: #fff;
+        transition: all 0.4s;
+    }
+    .front0 p {
+        position: relative;
+        top: -65px;
+        font-size: 35px;
+        color: #fff;
+        text-shadow: 2px 1px 7px #000000ad;
+        line-height: 24px;
+        color: #fff;
+        transition: all 0.4s;
+    }
+    .back h1 {
+        text-align: center;
+        font-size: 35px;
+        color: #fff;
+        top: 40%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+    }
+    .back p {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 40% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back2 h1 {
+        text-align: center;
+        font-size: 35px;
+        color: #fff;
+        top: 40%;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+    }
+    .back2 p {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 40% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .box-back {
+        position: absolute;
+        top: 55%;
+        left: 0;
+        right: 0;
+    }
+    .img-product-fix {
+        width: 100%;
+        border-radius: 1rem 1rem 0rem 0rem;
+        height: 190px;
+        object-fit: cover;
+    }
+    .h-box {
+        height: 5rem;
+    }
+
 }
 
 @media (max-width: 500px) {
+    .txt-date-slide > p{
+        font-size: 15px;
+    }
+    .h-box {
+        height: 6.5rem;
+    }
+    .front3 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
+    }
+    .front4 p {
+        position: relative;
+        color: #000;
+        transition: all 0.4s;
+        font-size: 0.9rem;
+    }
+    .back3 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 63% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back4 p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 63% !important;
+        transition: all 0.3s linear 0.2s;
+    }
     .card-img-h-100 {
         height: 130px !important;
         object-fit: cover;
@@ -1567,7 +2004,7 @@
     .back3,
     .back4 {
         opacity: 0;
-        background-image: url("../Images/hover-thumbnail-slide4.png") !important;
+        background-image: url("../Images/hover-thumbnail-slide3.png") !important;
         background-size: 100% 100%;
         position: absolute;
         overflow: hidden;
@@ -1575,39 +2012,22 @@
         left: 0;
         transition: all 0.4s linear;
     }
-    .back3 p {
-        font-size: 16px;
-        text-align: left;
-        margin: 10px 5px;
-        color: #fff;
-        position: relative;
-        top: 80% !important;
-        transition: all 0.3s linear 0.2s;
-    }
-    .back4 p {
-        font-size: 16px;
-        text-align: left;
-        margin: 10px 5px;
-        color: #fff;
-        position: relative;
-        top: 80% !important;
-        transition: all 0.3s linear 0.2s;
-    }
+    
     .img-product-fix {
         width: 100%;
         border-radius: 1rem 1rem 0rem 0rem;
-        height: 355px;
+        height: 180px;
         object-fit: cover;
     }
     .box-back {
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 0;
         right: 0;
     }
     .box-back-2 {
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 0;
         right: 0;
     }
@@ -1707,8 +2127,18 @@
     }
     .front p {
         position: relative;
-        top: -52px;
-        font-size: 20px;
+        top: -70px;
+        font-size: 35px;
+        color: #fff;
+        text-shadow: 2px 1px 7px #000000ad;
+        line-height: 45px;
+        color: #fff;
+        transition: all 0.4s;
+    }
+    .front0 p {
+        position: relative;
+        top: -60px;
+        font-size: 35px;
         color: #fff;
         text-shadow: 2px 1px 7px #000000ad;
         line-height: 24px;
@@ -1753,7 +2183,7 @@
 
     .back h1 {
         text-align: center;
-        font-size: 20px;
+        font-size: 35px;
         color: #fff;
         top: 55%;
         text-shadow: 2px 1px 7px #000000ad;
@@ -1768,7 +2198,7 @@
         opacity: 1;
     }
     .back p {
-        font-size: 10px;
+        font-size: 20px;
         text-align: center;
         margin: 10px 5px;
         color: #fff;
@@ -1798,7 +2228,7 @@
     }
     .back2 h1 {
         text-align: center;
-        font-size: 20px;
+        font-size: 35px;
         color: #fff;
         top: 55%;
         text-shadow: 2px 1px 7px #000000ad;
@@ -1813,7 +2243,7 @@
         opacity: 1;
     }
     .back2 p {
-        font-size: 13px;
+        font-size: 20px;
         text-align: center;
         margin: 10px 5px;
         color: #fff;

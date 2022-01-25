@@ -1,5 +1,5 @@
 <section class="d-lg-none d-block" style="background: url('assets/Images/navtop2.svg');background-repeat: no-repeat;background-size: 100% auto;">
-    <div class="py-md-2 py-1"></div>
+    <div class="py-md-3 py-1"></div>
 </section>
 
 <section class="d-none d-lg-block" style="background: url('assets/Images/navtop2.svg'); background-repeat: no-repeat; background-size: 100% auto;" id="header-color-nav">

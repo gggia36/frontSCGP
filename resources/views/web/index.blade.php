@@ -186,7 +186,7 @@
 					  </a>
 						<div class="collapse show" id="collapseExample" data-bs-parent="#collapseSolution">
 						  <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/ci.png')}}">
 								</div>
@@ -201,7 +201,7 @@
 					  </a>
 						<div class="collapse" id="collapseExample1" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/small.png')}}">
 								</div>
@@ -215,7 +215,7 @@
 					  </a>
 						<div class="collapse" id="collapseExample5" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/img-x7.png')}}">
 									<img src="{{asset('assets/Images/img-x8.png')}}">
@@ -230,7 +230,7 @@
 					  </a>
 						<div class="collapse" id="collapseExample2" data-bs-parent="#collapseSolution">
 						  <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/smart.png')}}">
 								</div>
@@ -244,7 +244,7 @@
 					  </a>
 						<div class="collapse" id="collapseExample3" data-bs-parent="#collapseSolution">
 						 <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/e-com.png')}}">
 								</div>
@@ -258,7 +258,7 @@
 					  </a>
 						<div class="collapse" id="collapseExample4" data-bs-parent="#collapseSolution">
 						  <div class="card card-fix card-body px-0 pb-0">
-						   <p class="txt-org mb-0">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
+						   <p class="txt-org mb-0 f-solo-og">SCGP is committed to incorporating Circular Economy <br>principles into the product and service design process...</p>
 						   <div class="d-flex">
 									<img src="{{asset('assets/Images/mar.png')}}">
 								</div>
@@ -283,55 +283,55 @@
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x13.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
-							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x12.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
-							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x11.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
-							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
-							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product wrap3">
 					<div class="front3">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="entypo-mobile front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="entypo-mobile front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back3">
-							<p class="fade-text3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text3 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 			</div>
@@ -348,7 +348,7 @@
 
 
 <section id="bg-section-new">
-	<div class="container px-0" data-aos="fade-up" data-aos-duration="1000">
+	<div class="container px-0 py-5" data-aos="fade-up" data-aos-duration="1000">
 	<div class="row pt-3 box-show-card" data-aos="fade-up" data-aos-duration="2000">
 		<h1 class="text-white text-center">NEWS</h1>
 	</div>
@@ -362,11 +362,11 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x10.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back4">
-							<p class="fade-text4">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text4 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 				<div class="item box-card-product2 wrap4">
@@ -376,13 +376,13 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x14.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="front-to-slide">SCGP makes inroads into
+							<p class="front-to-slide fixed-text-3">SCGP makes inroads into
 							medical supplies and labware
 							industry Signing of a share...</p>
 						</div>
 					</div>
 					<div class="back4">
-							<p class="fade-text4">SCGP makes inroads into
+							<p class="fade-text4 fixed-text-3">SCGP makes inroads into
 							medical supplies and labware
 							industry Signing of a share...</p>
 					</div>
@@ -395,13 +395,13 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x15.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="front-to-slide">SCGP tops up its success
+							<p class="front-to-slide fixed-text-3">SCGP tops up its success
 							in Indonesia, expands
 							investment...</p>
 						</div>
 					</div>
 					<div class="back4">
-							<p class="fade-text4">SCGP tops up its success
+							<p class="fade-text4 fixed-text-3">SCGP tops up its success
 							in Indonesia, expands
 							investment...</p>
 					</div>
@@ -413,13 +413,13 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x16.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="front-to-slide">SCGP tops up its success in
+							<p class="front-to-slide fixed-text-3">SCGP tops up its success in
 							Indonesia, expands investment
 							portfolio in downstream...</p>
 						</div>
 					</div>
 					<div class="back4">
-							<p class="fade-text4">SCGP tops up its success in
+							<p class="fade-text4 fixed-text-3">SCGP tops up its success in
 							Indonesia, expands investment
 							portfolio in downstream...</p>
 					</div>
@@ -431,11 +431,11 @@
 					<div class="front4">
 						<img class="img-product-fix" src="{{asset('assets/Images/img-x13.png')}}">
 						<div class="h-box pt-3 ps-2">
-							<p class="front-to-slide">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="front-to-slide fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 						</div>
 					</div>
 					<div class="back4">
-							<p class="fade-text4">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
+							<p class="fade-text4 fixed-text-3">Pro May : "INSPIRATION"...can be Created & Passed Forward</p>
 					</div>
 				</div>
 			</div>
