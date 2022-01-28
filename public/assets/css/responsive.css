@@ -44,6 +44,26 @@
 }
 
 @media (max-width: 1990px) and (min-width: 1900px) {
+    .h-img-fix {
+        height: 200px;
+        object-fit: cover;
+    }
+    .back5 {
+        opacity: 0;
+        background-image: url("../Images/CSR-ELEMENT1.png") !important;
+        background-size: 100% 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        transition: all .4s linear;
+    }
+    .box-back-5 {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+    }
     .h-box {
         height: 6rem;
     }
@@ -93,7 +113,7 @@
     }
     .box-back-5 {
         position: absolute;
-        top: 60%;
+        top: 58%;
         left: 0;
         right: 0;
     }
@@ -176,7 +196,7 @@
     }
     .box-back {
         position: absolute;
-        top: 48%;
+        top: 53%;
         left: 0;
         right: 0;
     }
@@ -204,10 +224,10 @@
         top: 66% !important;
     }
     .back h1 {
-        font-size: 27px;
+        font-size: 20px;
     }
     .back2 h1 {
-        font-size: 27px;
+        font-size: 20px;
     }
 
     .img-product-fix {
@@ -218,7 +238,7 @@
     }
     .img-packaging-fix-h {
         width: 100%;
-        height: 335px;
+        height: 300px;
         object-fit: cover;
     }
     .pk-h-txt{
@@ -231,10 +251,10 @@
     .card-body h6 {
         color: #0061ad;
         font-family: "SCG Bold";
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .back5 h6 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #fff;
         top: 65%;
         text-shadow: 2px 1px 7px #000000ad;
@@ -255,12 +275,16 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
+    }
     .h-img-fix {
-        height: 170px;
+        height: 155px;
         object-fit: cover;
     }
     .top-70 {
-        top: 65%;
+        top: 57%;
     }
     .top-50 {
         top: 46%!important;
@@ -271,10 +295,14 @@
     .card-body h6 {
         color: #0061ad;
         font-family: "SCG Bold";
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
     }
     .back5 h6 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #fff;
         top: 65%;
         text-shadow: 2px 1px 7px #000000ad;
@@ -294,6 +322,9 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+    .top-50 {
+        top: 46%!important;
     }
     .f-solo-og{
         font-size: 15px !important;
@@ -309,12 +340,12 @@
         object-fit: cover;
     }
     .h-img-fix {
-        height: 160px;
+        height: 145px;
         object-fit: cover;
     }
     .box-back-5 {
         position: absolute;
-        top: 60%;
+        top: 57%;
         left: 0;
         right: 0;
     }
@@ -411,6 +442,16 @@
 }
 
 @media (max-width: 1499px) and (min-width: 1400px) {
+    .CSR-Top h4 {
+        color: #1c1666;
+        font-family: "SCG Bold";
+        font-size: 1.3rem;
+    }
+    .CSR-Top p {
+        font-family: "SCG Regular";
+        font-size: 0.9rem;
+        color: #000;
+    }
     .card-body h6 {
         color: #0061ad;
         font-family: "SCG Bold";
@@ -438,8 +479,12 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
+    }
     .h-img-fix {
-        height: 155px;
+        height: 145px;
         object-fit: cover;
     }
     .img-packaging-fix-h {
@@ -465,7 +510,7 @@
     }
     .box-back-5 {
         position: absolute;
-        top: 60%;
+        top: 56%;
         left: 0;
         right: 0;
     }
@@ -554,12 +599,12 @@
     
 
     .card-img-h-100 {
-        height: 55px !important;
+        height: 68px !important;
         object-fit: cover;
     }
     .img-packaging-fix-h {
         width: 100%;
-        height: 310px;
+        height: 300px;
         object-fit: cover;
     }
     .top-70 {
@@ -602,6 +647,10 @@
 
 }
 @media (max-width: 1399px) and (min-width: 1300px) {
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem 0.5rem;
+    }
     .f-solo-og{
         font-size: 13px !important;
     }
@@ -613,10 +662,10 @@
     .card-body h6 {
         color: #0061ad;
         font-family: "SCG Bold";
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .back5 h6 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #fff;
         top: 65%;
         text-shadow: 2px 1px 7px #000000ad;
@@ -625,12 +674,14 @@
         padding: 0.2rem 1rem 0rem 1rem;
     }
     .back5 p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        margin: 0px;
     }
+
     .card-body p {
         color: #000;
         font-family: "SCG Regular";
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
@@ -638,7 +689,7 @@
         text-overflow: ellipsis;
     }
     .h-img-fix {
-        height: 165px;
+        height: 145px;
         object-fit: cover;
     }
     .box-back-5 {
@@ -729,9 +780,21 @@
     }
     .box-back {
         position: absolute;
-        top: 25%;
+        top: 50%;
         left: 0;
         right: 0;
+    }
+    .box-back-2 {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+    }
+    .wrap:hover .front p {
+        top: 10px;
+    }
+    .wrap2:hover .front p {
+        top: 10px;
     }
 
     .h-box {
@@ -782,6 +845,34 @@
         font-size: 1.2rem !important;
         color: #fff;
         top: 53%;
+    }
+    .back p {
+        font-size: 8px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 53% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .back2 p {
+        font-size: 8px;
+        text-align: center;
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 53% !important;
+        transition: all 0.3s linear 0.2s;
+    }
+    .CSR-Top h4 {
+        color: #1c1666;
+        font-family: "SCG Bold";
+        font-size: 1rem;
+    }
+    .CSR-Top p {
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        color: #000;
     }
 }
 
@@ -853,6 +944,10 @@
 }
 
 @media (max-width: 1298px) and (min-width: 1201px) {
+    .title-packaging h4 {
+        font-family: "SCG Bold";
+        font-size: 1rem;
+    }
     .box-show-card > h1 {
         font-size: 2.6rem;
         font-weight: 600;
@@ -867,12 +962,12 @@
         object-fit: cover;
     }
     .h-img-fix {
-        height: 145px !important;
+        height: 130px !important;
         object-fit: cover;
     }
     .box-back-5 {
         position: absolute;
-        top: 60%;
+        top: 57%;
         left: 0;
         right: 0;
     }
@@ -896,7 +991,7 @@
     }
     .img-packaging-fix-h {
         width: 100%;
-        height: 310px;
+        height: 225px;
         object-fit: cover;
     }
     .top-70 {
@@ -1061,11 +1156,29 @@
     }
     .title-packaging p {
         font-family: "SCG Regular";
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .img-packaging h5 {
+        font-family: "SCG Bold";
+        font-size: 1rem;
     }
     .img-packaging p {
         font-family: "SCG Regular";
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .CSR-Top h4 {
+        color: #1c1666;
+        font-family: "SCG Bold";
+        font-size: 1rem;
+    }
+    .CSR-Top p {
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        color: #000;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
     }
 }
 
@@ -1277,6 +1390,64 @@
 }
 
 @media (max-width: 1024px) {
+    .top-70 {
+        top: 55%;
+    }
+    .top-50 {
+        top: 45%!important;
+    }
+    .img-packaging-fix-h {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .card-img-h-100 {
+        height: 70px !important;
+        object-fit: cover;
+    }
+    .h-img-fix {
+        height: 160px;
+        object-fit: cover;
+    }
+    .box-back-5 {
+        position: absolute;
+        top: 58%;
+        left: 0;
+        right: 0;
+    }
+    .back5 h6 {
+        color: #fff;
+        top: 65%;
+        font-size: 0.9rem;
+        text-shadow: 2px 1px 7px #000000ad;
+        position: relative;
+        font-family: "SCG Bold";
+        padding: 0.2rem 1rem 0rem 1rem;
+    }
+    .back5 p {
+        margin: 10px 5px;
+        color: #fff;
+        position: relative;
+        top: 63% !important;
+        transition: all 0.3s linear 0.2s;
+        font-size: 0.6rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .back5 {
+        opacity: 0;
+        background-image: url("../Images/CSR-ELEMENT1.png") !important;
+        background-size: 100% 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        transition: all .4s linear;
+    }
     .fix-mar-nav-top {
         margin: 0rem -85px;
     }
@@ -1475,13 +1646,45 @@
         text-decoration: none;
         font-size: 0.7rem;
     }
-     .menuNav li label {
+    .menuNav li label {
         text-decoration: none;
          font-size: 0.7rem;
     }
     .ul-font {
         font-size: 0.7rem;
     }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
+    }
+    .card-body h6 {
+        color: #0061ad;
+        font-family: "SCG Bold";
+        font-size: 0.9rem;
+    }
+    .card-body p {
+        color: #000;
+        font-family: "SCG Regular";
+        font-size: 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box-back-2 {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right: 0;
+    }
+    .box-back {
+        position: absolute;
+        top: 55%;
+        left: 0;
+        right: 0;
+    }
+
 }
 
 @media (min-width: 992px) {

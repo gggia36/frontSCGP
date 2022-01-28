@@ -40,7 +40,7 @@
             <div class="col-12 mt-4 px-0">
                 <div class="row">
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -68,7 +68,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -96,7 +96,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -124,7 +124,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -152,7 +152,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -180,7 +180,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                        <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -208,7 +208,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                         <a >
                             <div class="wrap5">
                             <div class="front5">
@@ -236,7 +236,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-6 mt-4">
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-6 mt-4">
                        <a >
                             <div class="wrap5">
                             <div class="front5">

@@ -27,7 +27,7 @@
                             จำนวนวัสดุเหลือใช้ที่นำกลับมารีไซเคิล
                         </div>
                         <div class="col-12 text-center count-recycle">
-                            <h1><span class="Count">10000</span> kg</h1>
+                            <h1><span class="Count">9000</span> kg</h1>
                         </div>
                         <div class="col-12 text-center desc-recycle font-size-1">
                             วัสดุเหลือใช้ประกอบด้วย
@@ -44,7 +44,7 @@
                             จำนวนวัสดุเหลือใช้ที่นำกลับมารีไซเคิล
                         </div>
                         <div class="col-12 text-center count-recycle">
-                            <h1><span class="Count">20000</span> kg</h1>
+                            <h1><span class="Count">8000</span> kg</h1>
                         </div>
                         <div class="col-12 text-center desc-recycle font-size-1">
                             วัสดุเหลือใช้ประกอบด้วย
@@ -61,7 +61,7 @@
                             จำนวนวัสดุเหลือใช้ที่นำกลับมารีไซเคิล
                         </div>
                         <div class="col-12 text-center count-recycle">
-                            <h1><span class="Count">30000</span> kg</h1>
+                            <h1><span class="Count">3000</span> kg</h1>
                         </div>
                         <div class="col-12 text-center desc-recycle font-size-1">
                             วัสดุเหลือใช้ประกอบด้วย
